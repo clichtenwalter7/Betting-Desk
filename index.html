@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Betting Desk</title>
+<meta name="theme-color" content="#0d7a4a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Betting Desk">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><div class="brand">Betting<span>Desk</span></div><div class="mu" id="asof">Loading…</div></div>
+    <div class="row" style="gap:8px;flex-wrap:nowrap">
+      <span class="chip nt" id="feedchip">Connecting</span>
+      <button class="iconbtn" data-act="settings" aria-label="Settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    </div>
+  </div>
+  <section id="t-today"></section>
+  <section id="t-picks" hidden></section>
+  <section id="t-scores" hidden></section>
+  <section id="t-track" hidden></section>
+  <section id="t-tools" hidden></section>
+</div>
+<div class="sel-bar" id="selbar" hidden></div>
+<nav class="bar"><div id="nav"></div></nav>
+<div class="toast" id="toast" hidden></div>
+<div id="sheet" hidden><div class="pn" id="shp"></div></div>
+<script src="js/engine.js"></script>
+<script src="js/espn.js"></script>
+<script src="js/state.js"></script>
+<script src="js/picks.js"></script>
+<script src="js/views.js"></script>
+<script src="js/actions.js"></script>
+<script src="js/boot.js"></script>
+</body>
+</html>
