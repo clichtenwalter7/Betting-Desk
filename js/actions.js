@@ -272,7 +272,7 @@ function applyAuto() {
     var r = E.betAuto(b, function (l) { return X.index[String(l.eid)] || null; });
     if (r) { b.r = r; b.st = Date.now(); n++; names.push(b.l + " (" + r + ")"); }
   });
-  if (n) { saveBets(); toast(n + (n === 1 ? " bet" : " bets") + " settled: " + names.join("; ")); }
+  if (n) { saveBets(); toast(n + (n === 1 ? " bet" : " bets") + " settled: " + names.join("; ")); N.send(n === 1 ? "Bet settled" : n + " bets settled", names.join("; "), "settled"); }
   return n;
 }
 function autoSettle() {
@@ -300,6 +300,8 @@ ACT.settings = function () {
     '<details data-k="modelset" ' + (UI.open.modelset ? "open" : "") + '><summary>Model settings (change the algorithm)</summary><div class="mu" style="margin:6px 0">Each pick blends my model with the sportsbook price. A higher model weight trusts my number more; a lower one trusts the market more. Defaults: NFL 5% (tested on 5,000 games), others higher because they are less tested.</div><div class="g2">' + mw + "</div>" +
     '<div class="g3" style="margin-top:10px">' + sf("t1", "EV for 0.5u (%)", 100) + sf("t2", "EV for 1u (%)", 100) + sf("t3", "EV for 1.5u (%)", 100) + sf("ucap", "Max units") + sf("minp", "Min win chance (%)", 100) + sf("gap", "Model-vs-market gap cap (pts)", 100) + '</div><div style="margin-top:10px"><button class="btn sm alt" data-act="resetmodel">Reset model settings</button></div></details>' +
     '<details data-k="dataset" ' + (UI.open.dataset ? "open" : "") + "><summary>Data and connection</summary><div class=\"mu\" style=\"margin:6px 0\">Picks updated: " + esc(SLATE && SLATE.asof ? new Date(SLATE.asof).toLocaleString() : "never") + ". Live feed: " + (X.status.ok === true ? "connected" : X.status.ok === false ? "error (" + esc(X.status.err) + ")" : "not tried yet") + '.</div><div id="testout" class="mu"></div><button class="btn sm alt" data-act="testfeed">Test connection</button> <button class="btn sm alt" data-act="reloadslate">Reload today\'s picks</button></details>' +
+    '<h2>Notifications</h2><div class="mu" style="margin:6px 0">Bet results, game starts for your bets and followed games, and new picks. They arrive while the app is open or recently used; true background alerts would need a server. On iPhone, add the app to your Home Screen first.</div>' +
+    (N.on() ? '<button class="btn sm alt" data-act="notifyoff">Turn off notifications</button>' : '<button class="btn sm" data-act="notifyon">Turn on notifications</button>') + ' <span class="mu">' + (N.perm() === "denied" ? "Blocked in phone settings" : N.on() ? "On" : "Off") + '</span>' +
     '<div class="row" style="margin-top:14px"><button class="btn sm alt" data-act="safe">Play it safe</button><button class="btn sm alt" data-act="export">Back up</button><button class="btn sm alt" data-act="import">Restore</button></div>');
 };
 function setSetting(t) {
@@ -318,6 +320,16 @@ ACT.resetmodel = function () {
 ACT.testfeed = function () {
   var o = $("testout"); o.textContent = "Testing…";
   X.test().then(function (r) { o.innerHTML = r.map(esc).join("<br>"); rerender(); });
+};
+ACT.notifyon = function () { N.ask().then(function () { ACT.settings(); }); };
+ACT.notifyoff = function () { store.set("notify", false); toast("Notifications off."); ACT.settings(); };
+var DKURL = { NFL: "football/nfl", CFB: "football/ncaaf", NBA: "basketball/nba", NHL: "hockey/nhl", MLB: "baseball/mlb", NCAAB: "basketball/ncaab" };
+ACT.dk = function (t, v, id) {
+  var p = pickById(id); if (!p) return;
+  var txt = p.label + " (" + sgn(p.od) + ") - " + (p.u > 0 ? uf(p.u) + " = " + money(p.stake) : "no edge") + " | " + p.game;
+  if (navigator.clipboard) navigator.clipboard.writeText(txt).catch(function () { });
+  toast("Bet details copied. Find the game on DraftKings and confirm the price.");
+  window.open("https://sportsbook.draftkings.com/leagues/" + (DKURL[p.sp] || ""), "_blank", "noopener");
 };
 ACT.reloadslate = function () { loadSlate().then(function () { toast(SLATE ? "Picks reloaded." : "No picks available."); }); };
 ACT.safe = function () {

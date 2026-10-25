@@ -138,7 +138,7 @@ function pickCard(p, o) {
     (o.compact ? "" : '<details data-k="why-' + esc(p.id) + '" ' + (UI.open["why-" + p.id] ? "open" : "") + '><summary>Why this pick</summary><div class="mu" style="padding:6px 0">' + esc(p.why) + (p.pm != null ? " Market (no-vig) " + pct(p.pm, 1) + ", model " + pct(p.p, 1) + ", blended " + pct(p.pu, 1) + "." : "") + "</div></details>") +
     '<div class="row" style="margin-top:8px"><span>' + (placed ? '<span class="tag">Logged ✓</span>' : "") + "</span><span>" +
     '<button class="btn sm alt" data-act="share" data-id="' + esc(p.id) + '">Share</button> ' + (p.g ? '<button class="btn sm alt" data-act="game" data-id="' + esc(p.g.id) + '">Game</button> ' : "") +
-    (started ? "" : (placed ? "" : '<button class="btn sm" data-act="log" data-id="' + esc(p.id) + '">Log it</button>')) + "</span></div></div></div></div>";
+     (started ? "" : '<button class="btn sm alt" data-act="dk" data-id="' + esc(p.id) + '">DraftKings</button> ') + (started ? "" : (placed ? "" : '<button class="btn sm" data-act="log" data-id="' + esc(p.id) + '">Log it</button>')) + "</span></div></div></div></div>";
   return h;
 }
 function renderPicks() {

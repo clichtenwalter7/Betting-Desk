@@ -4,7 +4,7 @@ function loadSlate() {
   return Promise.all([get("data/nba.json").catch(function () { return null; }), get("data/slate.json").catch(function () { return null; })]).then(function (r) {
     if (r[0]) NBAD = r[0];
     if (r[1]) { SLATE = r[1]; store.set("slate", SLATE); }
-    buildPicks();
+    buildPicks(); N.slate();
   });
 }
 function neededSports() {
@@ -47,6 +47,7 @@ function refreshLive(force) {
     buildPicks();
     return autoSettle();
   }).then(function () {
+    N.scan();
     var sig = stateSig();
     if (sig !== UI.sig) { UI.sig = sig; if (UI.tab !== "tools") rerender(); if (UI.sheet && UI.sheet.type === "game") paintGame(); }
     else { var st = X.status, chip = $("feedchip"); chip.className = "chip" + (st.ok === false ? " ls" : st.ok ? "" : " nt"); chip.textContent = st.ok === false ? "Offline" : st.ok ? "Live" : "Connecting"; }
