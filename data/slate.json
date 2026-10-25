@@ -1,156 +1,318 @@
 {
  "v": 1,
- "asof": "2026-10-24T08:15:00-07:00",
- "date": "2026-10-24",
+ "asof": "2026-10-25T08:45:00-07:00",
+ "date": "2026-10-25",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "sp": "NHL",
-   "away": "Ducks",
-   "home": "Flyers",
-   "pick": "Ducks",
-   "p": 0.515,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Ducks -0.39, Flyers -0.73; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 10:00 AM PT"
+   "away": "Panthers",
+   "home": "Blackhawks",
+   "pick": "Panthers",
+   "p": 0.604,
+   "when": "Sun 12:00 PM PT",
+   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Panthers -0.29, Blackhawks -1.19; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified. Goalies (Daily Faceoff): Schmid (confirmed) vs Knight (unconfirmed); no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   },
   {
    "type": "ml",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "sp": "NHL",
-   "away": "Kings",
-   "home": "Devils",
-   "pick": "Devils",
-   "p": 0.633,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Kings -0.65, Devils -0.05; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 12:30 PM PT"
+   "away": "Islanders",
+   "home": "Stars",
+   "pick": "Stars",
+   "p": 0.621,
+   "when": "Sun 3:00 PM PT",
+   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Islanders +0.25, Stars +0.77; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified. Goalies (Daily Faceoff): Sorokin vs Oettinger (both unconfirmed); no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   },
   {
    "type": "ml",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "sp": "NHL",
-   "away": "Hurricanes",
-   "home": "Blues",
-   "pick": "Hurricanes",
-   "p": 0.605,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Hurricanes +0.95, Blues +0.04; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT"
+   "away": "Canadiens",
+   "home": "Jets",
+   "pick": "Canadiens",
+   "p": 0.507,
+   "when": "Sun 4:00 PM PT",
+   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Canadiens -0.04, Jets -0.33; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified. Goalies (Daily Faceoff): Fowler vs Skinner (both unconfirmed); no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   },
   {
    "type": "ml",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "sp": "NHL",
-   "away": "Predators",
-   "home": "Penguins",
-   "pick": "Penguins",
-   "p": 0.634,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Predators -0.51, Penguins +0.10; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT"
+   "away": "Avalanche",
+   "home": "Predators",
+   "pick": "Avalanche",
+   "p": 0.761,
+   "when": "Sun 5:00 PM PT",
+   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Avalanche +1.10, Predators -0.51; home ice worth 0.159 log-odds, rating gap 0.644 per goal. Predators on the second night of a back-to-back (-0.28 log-odds); they played Sat at Pittsburgh (OT). Goalies (Daily Faceoff): Blackwood vs Saros (both unconfirmed); no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   },
   {
    "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Rangers",
-   "home": "Senators",
-   "pick": "Senators",
-   "p": 0.529,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Rangers +0.30, Senators +0.23; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. Senators -122 is DraftKings (Rangers +110 at BetRivers); no-vig about 54% for Ottawa, so the model sees no real edge. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT",
-   "od": -122
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Sharks",
-   "home": "Bruins",
-   "pick": "Bruins",
-   "p": 0.756,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Sharks -0.43, Bruins +1.08; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Golden Knights",
-   "home": "Blue Jackets",
-   "pick": "Golden Knights",
-   "p": 0.625,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Golden Knights +0.54, Blue Jackets -0.50; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Sabres",
-   "home": "Capitals",
-   "pick": "Capitals",
-   "p": 0.593,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Sabres -0.16, Capitals +0.17; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Maple Leafs",
-   "home": "Oilers",
-   "pick": "Oilers",
-   "p": 0.677,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Maple Leafs -0.07, Oilers +0.83; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. Price -179 (Leafs +150) is DraftKings via an rg.org odds roundup; no-vig about 63% for Edmonton. NHL gaps are unvalidated against the market.",
-   "when": "Sat 4:00 PM PT",
-   "od": -179
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Lightning",
-   "home": "Mammoth",
-   "pick": "Mammoth",
-   "p": 0.576,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Lightning +0.61, Mammoth +0.40; home ice worth 0.159 log-odds, rating gap 0.644 per goal. Lightning are on the second night of a back-to-back (played Colorado Fri), -0.28 log-odds. Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 6:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "sp": "NHL",
    "away": "Wild",
-   "home": "Kraken",
+   "home": "Canucks",
    "pick": "Wild",
-   "p": 0.509,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Wild +0.42, Kraken +0.12; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 7:00 PM PT"
+   "p": 0.691,
+   "when": "Sun 7:00 PM PT",
+   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Wild +0.42, Canucks -1.51; home ice worth 0.159 log-odds, rating gap 0.644 per goal. Wild on the second night of a back-to-back (-0.28 log-odds); they played Sat at Seattle. Goalies (Daily Faceoff): Pickard (Canucks, confirmed) vs Merilainen (unconfirmed); no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   },
   {
    "type": "ml",
-   "d": "2026-10-24",
-   "sp": "NHL",
-   "away": "Red Wings",
-   "home": "Flames",
-   "pick": "Red Wings",
-   "p": 0.634,
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate): Red Wings -0.20, Flames -1.30; home ice worth 0.159 log-odds, rating gap 0.644 per goal. No back-to-backs identified for either team (only Fri games checked). Starters (Daily Faceoff): all goalies unconfirmed, so no goalie adjustment. I could not find a verified DraftKings price for this game, so any price is estimated from my lean (marked est.), not a real line. NHL gaps are unvalidated against the market.",
-   "when": "Sat 7:00 PM PT"
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Steelers",
+   "home": "Saints",
+   "pick": "Steelers",
+   "p": 0.565,
+   "od": -136,
+   "when": "Sun 6:30 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Steelers 56.5%) at the Oct 24 consensus price -136 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings. Neutral site."
   },
   {
    "type": "ml",
-   "d": "2026-10-24",
-   "sp": "MLB",
-   "away": "Rays",
-   "home": "Brewers",
-   "pick": "Brewers",
-   "p": 0.619,
-   "od": -127,
-   "when": "Sat 5:00 PM PT",
-   "why": "Pythagorean win% from 2026 regular-season runs (Brewers 832/618 = 0.633, Rays 736/650 = 0.557), log5, plus Brewers home field (0.16 log-odds). Starters: Henderson (2.47 ERA) vs Rasmussen (2.67 ERA), each regressed halfway to 4.20. Price -127 (Rays +106) is DraftKings via SI, morning line; no-vig about 54% for Milwaukee, so 62% is a lean of about 8 pts. Milwaukee leads the series 1-0. MLB model is not back-tested. Starters are probable; weather not checked."
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "49ers",
+   "home": "Falcons",
+   "pick": "49ers",
+   "p": 0.673,
+   "od": -220,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (49ers 67.3%) at the Oct 24 consensus price -220 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Bengals",
+   "home": "Ravens",
+   "pick": "Ravens",
+   "p": 0.585,
+   "od": -150,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Ravens 58.5%) at the Oct 24 consensus price -150 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings. Lamar Jackson was limited in practice after missing two games."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Buccaneers",
+   "home": "Panthers",
+   "pick": "Panthers",
+   "p": 0.608,
+   "od": -164,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Panthers 60.8%) at the Oct 24 consensus price -164 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings. Baker Mayfield (thumb) starts for Tampa Bay; Egbuka and Goedeke out."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Giants",
+   "home": "Texans",
+   "pick": "Texans",
+   "p": 0.791,
+   "od": -415,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Texans 79.1%) at the Oct 24 consensus price -415 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Colts",
+   "home": "Vikings",
+   "pick": "Vikings",
+   "p": 0.691,
+   "od": -245,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Vikings 69.1%) at the Oct 24 consensus price -245 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings. Hockenson, Addison and Mason return for Minnesota."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Dolphins",
+   "home": "Jets",
+   "pick": "Jets",
+   "p": 0.68,
+   "od": -230,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Jets 68.0%) at the Oct 24 consensus price -230 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Browns",
+   "home": "Titans",
+   "pick": "Browns",
+   "p": 0.534,
+   "od": -120,
+   "when": "Sun 10:00 AM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Browns 53.4%) at the Oct 24 consensus price -120 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Broncos",
+   "home": "Cardinals",
+   "pick": "Broncos",
+   "p": 0.658,
+   "od": -210,
+   "when": "Sun 1:05 PM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Broncos 65.8%) at the Oct 24 consensus price -210 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Packers",
+   "home": "Lions",
+   "pick": "Lions",
+   "p": 0.603,
+   "od": -162,
+   "when": "Sun 1:25 PM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Lions 60.3%) at the Oct 24 consensus price -162 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Rams",
+   "home": "Raiders",
+   "pick": "Rams",
+   "p": 0.685,
+   "od": -235,
+   "when": "Sun 1:25 PM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Rams 68.5%) at the Oct 24 consensus price -235 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
+  },
+  {
+   "type": "ml",
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Chiefs",
+   "home": "Seahawks",
+   "pick": "Seahawks",
+   "p": 0.549,
+   "od": -130,
+   "when": "Sun 5:20 PM PT",
+   "why": "No independent team model edge: with mw .05 the pick is the no-vig market favorite (Seahawks 54.9%) at the Oct 24 consensus price -130 (RotoWire); the vig leaves EV negative, so treat as a lean, not a bet. Lines moved a little Sunday morning; confirm on DraftKings."
   }
  ],
- "totals": [],
+ "totals": [
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Steelers",
+   "home": "Saints",
+   "line": 44.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "49ers",
+   "home": "Falcons",
+   "line": 51,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Bengals",
+   "home": "Ravens",
+   "line": 51.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Buccaneers",
+   "home": "Panthers",
+   "line": 45,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Giants",
+   "home": "Texans",
+   "line": 43.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Colts",
+   "home": "Vikings",
+   "line": 41.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Dolphins",
+   "home": "Jets",
+   "line": 39.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Browns",
+   "home": "Titans",
+   "line": 37.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Broncos",
+   "home": "Cardinals",
+   "line": 43.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Packers",
+   "home": "Lions",
+   "line": 53.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Rams",
+   "home": "Raiders",
+   "line": 47.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  },
+  {
+   "d": "2026-10-25",
+   "sp": "NFL",
+   "away": "Chiefs",
+   "home": "Seahawks",
+   "line": 42.5,
+   "w": null,
+   "why": "Total from RotoWire consensus (Oct 24); no forecast wind found, so no weather shade."
+  }
+ ],
  "props": [],
  "nba": {
   "season": {
@@ -163,8 +325,8 @@
     "n": 2
    },
    "76ers": {
-    "m": 14,
-    "n": 2
+    "m": 25,
+    "n": 3
    },
    "Knicks": {
     "m": -10,
@@ -175,28 +337,28 @@
     "n": 2
    },
    "Spurs": {
-    "m": -16,
-    "n": 2
+    "m": 0,
+    "n": 3
    },
    "Hawks": {
-    "m": 54,
-    "n": 2
+    "m": 47,
+    "n": 3
    },
    "Magic": {
     "m": -29,
     "n": 2
    },
    "Bucks": {
-    "m": -19,
-    "n": 2
+    "m": -30,
+    "n": 3
    },
    "Wizards": {
-    "m": 2,
-    "n": 2
+    "m": 6,
+    "n": 3
    },
    "Bulls": {
-    "m": -36,
-    "n": 2
+    "m": -40,
+    "n": 3
    },
    "Raptors": {
     "m": 53,
@@ -207,24 +369,24 @@
     "n": 2
    },
    "Heat": {
-    "m": -42,
-    "n": 2
+    "m": -47,
+    "n": 3
    },
    "Hornets": {
-    "m": -40,
-    "n": 2
+    "m": -35,
+    "n": 3
    },
    "Nets": {
-    "m": -7,
-    "n": 1
+    "m": -11,
+    "n": 2
    },
    "Pacers": {
     "m": -13,
     "n": 2
    },
    "Pelicans": {
-    "m": -4,
-    "n": 2
+    "m": -10,
+    "n": 3
    },
    "Jazz": {
     "m": -19,
@@ -235,24 +397,24 @@
     "n": 2
    },
    "Mavericks": {
-    "m": -2,
-    "n": 2
+    "m": -18,
+    "n": 3
    },
    "Rockets": {
-    "m": 22,
-    "n": 2
+    "m": 29,
+    "n": 3
    },
    "Warriors": {
-    "m": -25,
-    "n": 2
+    "m": -34,
+    "n": 3
    },
    "Lakers": {
     "m": 30,
     "n": 2
    },
    "Suns": {
-    "m": -41,
-    "n": 1
+    "m": -32,
+    "n": 2
    },
    "Trail Blazers": {
     "m": 49,
@@ -267,100 +429,91 @@
     "n": 2
    },
    "Cavaliers": {
-    "m": -8,
-    "n": 1
+    "m": -4,
+    "n": 2
    },
    "Nuggets": {
-    "m": -12,
-    "n": 1
+    "m": -6,
+    "n": 2
    }
   },
   "games": [
    {
-    "d": "2026-10-24",
-    "a": "Heat",
-    "h": "Hornets",
-    "when": "3:00 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": true,
-    "b2bA": true
-   },
-   {
-    "d": "2026-10-24",
-    "a": "Nets",
-    "h": "Cavaliers",
-    "when": "4:30 PM PT",
+    "d": "2026-10-25",
+    "a": "Jazz",
+    "h": "Lakers",
+    "when": "2:00 PM PT",
     "adjH": 0,
     "adjA": 0,
     "b2bH": false,
     "b2bA": false
    },
    {
-    "d": "2026-10-24",
-    "a": "Bucks",
-    "h": "76ers",
+    "d": "2026-10-25",
+    "a": "Nets",
+    "h": "Pacers",
+    "when": "3:00 PM PT",
+    "adjH": -1,
+    "adjA": -0.5,
+    "b2bH": true,
+    "b2bA": false
+   },
+   {
+    "d": "2026-10-25",
+    "a": "Timberwolves",
+    "h": "Raptors",
+    "when": "4:00 PM PT",
+    "adjH": -1.5,
+    "adjA": 0,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-10-25",
+    "a": "Knicks",
+    "h": "Magic",
+    "when": "4:00 PM PT",
+    "adjH": -4,
+    "adjA": 0,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-10-25",
+    "a": "Thunder",
+    "h": "Clippers",
+    "when": "4:00 PM PT",
+    "adjH": -6,
+    "adjA": 0,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-10-25",
+    "a": "76ers",
+    "h": "Pistons",
     "when": "4:30 PM PT",
-    "adjH": 0,
+    "adjH": -2.5,
     "adjA": 0,
     "b2bH": false,
     "b2bA": true
    },
    {
-    "d": "2026-10-24",
-    "a": "Spurs",
-    "h": "Mavericks",
-    "when": "5:00 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": true,
-    "b2bA": true
-   },
-   {
-    "d": "2026-10-24",
-    "a": "Wizards",
-    "h": "Bulls",
-    "when": "5:00 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": true,
-    "b2bA": true
-   },
-   {
-    "d": "2026-10-24",
-    "a": "Pelicans",
-    "h": "Nuggets",
+    "d": "2026-10-25",
+    "a": "Kings",
+    "h": "Grizzlies",
     "when": "6:00 PM PT",
     "adjH": 0,
     "adjA": 0,
     "b2bH": false,
-    "b2bA": true
-   },
-   {
-    "d": "2026-10-24",
-    "a": "Rockets",
-    "h": "Hawks",
-    "when": "5:30 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": true,
-    "b2bA": true
-   },
-   {
-    "d": "2026-10-24",
-    "a": "Warriors",
-    "h": "Suns",
-    "when": "7:00 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": false,
-    "b2bA": true
+    "b2bA": false
    }
   ]
  },
  "news": [
-  "World Series: Brewers lead Rays 1-0 after a 3-2 Game 1 win; Game 2 tonight 5:00 PM PT.",
-  "NHL: 12 games today, no goalies confirmed yet; goalie adjustments are off until starters are posted.",
-  "NBA injury reports were not priced in. No college football or NFL picks today. Only a few real DraftKings prices were found (Brewers, Oilers, Senators); confirm lines before betting."
+  "World Series: Brewers lead Rays 2-0 after a 5-4 Game 2 comeback; Game 3 is Monday 5:00 PM PT. No MLB games today.",
+  "NFL Week 7: moneylines are the Oct 24 RotoWire consensus, not live DraftKings prices. NFL model weight is 5%, so the NFL picks are market-implied leans with negative EV after vig. Cowboys at Eagles is Monday night.",
+  "NHL: 5 games today; only Schmid (Panthers) and Pickard (Canucks) are confirmed starters. No verified NHL prices found.",
+  "NBA: 7 games today; injury adjustments are rough estimates. Lakers-Jazz and 76ers-Pistons depend on late status updates."
  ]
 }
