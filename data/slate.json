@@ -1,64 +1,41 @@
 {
  "v": 1,
- "asof": "2026-10-27T08:00:00-07:00",
- "date": "2026-10-27",
+ "asof": "2026-10-28T08:15:00-07:00",
+ "date": "2026-10-28",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-10-27",
+   "d": "2026-10-28",
    "sp": "NHL",
-   "away": "Canucks",
-   "home": "Ducks",
-   "pick": "Ducks",
-   "p": 0.718,
-   "when": "Tue 7:00 PM PT",
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate through Oct 26): Canucks -1.53, Ducks -0.32; home ice 0.159 log-odds, rating gap 0.644 per goal. No back-to-back flagged. Goalies per Daily Faceoff all unconfirmed; no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
+   "away": "Flyers",
+   "home": "Capitals",
+   "pick": "Capitals",
+   "p": 0.732,
+   "when": "Wed 4:37 PM PT",
+   "why": "Flyers -1.38 GD/game, Capitals +0.20; Flyers on the second night of a back-to-back (played Tue at home, OT loss to Columbus) at -0.28. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied this run); home ice 0.159 log-odds, rating gap 0.644 per goal. Goalies unconfirmed; no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   },
   {
    "type": "ml",
-   "d": "2026-10-27",
+   "d": "2026-10-28",
    "sp": "NHL",
-   "away": "Devils",
-   "home": "Stars",
-   "pick": "Stars",
-   "p": 0.667,
-   "when": "Tue 5:00 PM PT",
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate through Oct 26): Devils +0.05, Stars +0.88; home ice 0.159 log-odds, rating gap 0.644 per goal. No back-to-back flagged. Goalies per Daily Faceoff all unconfirmed; no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-27",
-   "sp": "NHL",
-   "away": "Senators",
-   "home": "Golden Knights",
-   "pick": "Golden Knights",
-   "p": 0.557,
-   "when": "Tue 7:00 PM PT",
-   "why": "Goal diff/game this season blended with last season (10-game prior weight; approximate through Oct 26): Senators +0.36, Golden Knights +0.47; home ice 0.159 log-odds, rating gap 0.644 per goal. No back-to-back flagged. Goalies per Daily Faceoff all unconfirmed; no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-27",
-   "sp": "MLB",
-   "away": "Brewers",
-   "home": "Rays",
-   "pick": "Brewers",
-   "p": 0.551,
-   "od": -136,
-   "when": "Tue 5:00 PM PT",
-   "why": "World Series Game 4 (Brewers lead 3-0 after a 10-1 Game 3). DraftKings Brewers -136 / Rays +113 (ESPN feed, listed as closing line), no-vig Brewers 55.1%. Rays list Griffin Jax; Brewers starter not confirmed. No independent edge, so this is a market lean, not a bet (EV negative after vig). Series pricing not modelled."
+   "away": "Flames",
+   "home": "Oilers",
+   "pick": "Oilers",
+   "p": 0.694,
+   "when": "Wed 5:37 PM PT",
+   "why": "Flames -1.18 GD/game, Oilers +0.75 with the NHL's top power play (35%); Calgary projected to start Devin Cooley (unconfirmed). Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied this run); home ice 0.159 log-odds, rating gap 0.644 per goal. Goalies unconfirmed; no goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market."
   }
  ],
  "totals": [],
  "props": [],
  "nba": {
   "season": {
-   "Pistons": {"m": 38, "n": 3},
-   "Celtics": {"m": 31, "n": 3},
+   "Pistons": {"m": 24, "n": 4},
+   "Celtics": {"m": 32, "n": 4},
    "76ers": {"m": 12, "n": 4},
-   "Knicks": {"m": -19, "n": 3},
+   "Knicks": {"m": -5, "n": 4},
    "Thunder": {"m": 42, "n": 4},
-   "Spurs": {"m": 0, "n": 3},
+   "Spurs": {"m": 27, "n": 4},
    "Hawks": {"m": 37, "n": 4},
    "Magic": {"m": -20, "n": 3},
    "Bucks": {"m": -22, "n": 4},
@@ -68,7 +45,7 @@
    "Timberwolves": {"m": 68, "n": 4},
    "Heat": {"m": -51, "n": 4},
    "Hornets": {"m": -28, "n": 4},
-   "Nets": {"m": -38, "n": 3},
+   "Nets": {"m": -39, "n": 4},
    "Pacers": {"m": 6, "n": 4},
    "Pelicans": {"m": -10, "n": 3},
    "Jazz": {"m": -33, "n": 4},
@@ -76,26 +53,33 @@
    "Mavericks": {"m": -14, "n": 4},
    "Rockets": {"m": 39, "n": 4},
    "Warriors": {"m": -14, "n": 4},
-   "Lakers": {"m": 39, "n": 3},
+   "Lakers": {"m": 32, "n": 4},
    "Suns": {"m": -43, "n": 3},
-   "Trail Blazers": {"m": 49, "n": 2},
-   "Kings": {"m": -44, "n": 3},
+   "Trail Blazers": {"m": 56, "n": 3},
+   "Kings": {"m": -71, "n": 4},
    "Clippers": {"m": 10, "n": 3},
    "Cavaliers": {"m": -2, "n": 3},
    "Nuggets": {"m": -26, "n": 3}
   },
   "games": [
-   {"d": "2026-10-27", "a": "Nets", "h": "Celtics", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
-   {"d": "2026-10-27", "a": "Pistons", "h": "Knicks", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-27", "a": "Kings", "h": "Spurs", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-27", "a": "Trail Blazers", "h": "Lakers", "when": "8:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
+   {"d": "2026-10-28", "a": "Wizards", "h": "Cavaliers", "when": "4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "76ers", "h": "Pacers", "when": "4:00 PM PT", "adjH": -2, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Heat", "h": "Hawks", "when": "4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Hornets", "h": "Pistons", "when": "4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
+   {"d": "2026-10-28", "a": "Magic", "h": "Raptors", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Warriors", "h": "Timberwolves", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Rockets", "h": "Bucks", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Nuggets", "h": "Pelicans", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Knicks", "h": "Bulls", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true},
+   {"d": "2026-10-28", "a": "Spurs", "h": "Jazz", "when": "6:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true},
+   {"d": "2026-10-28", "a": "Thunder", "h": "Mavericks", "when": "6:30 PM PT", "adjH": 0, "adjA": -6, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-28", "a": "Lakers", "h": "Clippers", "when": "7:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true}
   ]
  },
  "news": [
-  "World Series: Brewers lead Rays 3-0 after a 10-1 Game 3; Game 4 is Tuesday 5:00 PM PT at Tropicana Field. DraftKings Brewers -136, Rays +113, total 7 (ESPN feed). Rays list Griffin Jax; Brewers starter unconfirmed.",
-  "NHL: 11 games tonight; no goalies confirmed and no verified prices. Kings are on the second night of a back-to-back at Chicago. Monday: the three NHL model picks (Rangers, Maple Leafs, Oilers) all lost.",
-  "NBA: 4 games tonight (Nets-Celtics, Pistons-Knicks, Kings-Spurs, Trail Blazers-Lakers). Celtics are on a back-to-back. Injury adjustments set to 0 because no verified report was found; check late scratches.",
-  "NFL: no games today (Cowboys beat the Eagles 38-21 on Monday night).",
-  "College football: only Delaware at Western Kentucky (4:00 PM PT) and Sam Houston at Missouri State (5:00 PM PT); no lines found, no picks."
+  "World Series: Brewers lead Rays 3-1 after Tampa Bay's 4-3, 12-inning Game 4 win. Game 5 is Wed 5:00 PM PT at Tropicana Field. DraftKings Brewers -141, Rays +117 (FanDuel -142/+120), total 6.5. Brewers start Jacob Misiorowski (1.80 ERA); Rays starter unannounced (Rasmussen on short rest or a bullpen game). Model finds no edge at that price, so no pick.",
+  "NHL: only 4 games tonight (Flyers-Capitals, Flames-Oilers, Devils-Avalanche, Maple Leafs-Kraken). Devils are on a back-to-back at Colorado; model gives Avalanche about 63% vs a -175 price (63.6% break-even), so pass. Leafs -110 / Kraken +100 (assumed from a picks site): model blend about 50%, pass. Tuesday: Ducks (Canucks won 6-5 OT) and Stars (Devils won 5-1) picks lost; Golden Knights won 4-1.",
+  "NBA: 12 games tonight; the app prices them itself. Thunder are without Holmgren, Caruso and J. Williams (adjusted -6 away) and the Pacers without Zubac (-2). Pistons (home), Knicks, Spurs and Lakers are on back-to-backs. Other injury adjustments left at 0 where no verified report was found; check late scratches.",
+  "NFL: no games today. College football: no relevant games or lines found, no picks."
  ]
 }
