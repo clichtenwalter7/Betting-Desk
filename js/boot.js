@@ -37,6 +37,18 @@ function stateSig() {
   parts.push(PICKS.map(function (p) { return p.id + p.u + p.od + p.state; }).join(""));
   return parts.join("|");
 }
+/* Closing line value: while a single moneyline bet's game has not started, keep the latest DraftKings price; it freezes at the start. */
+function trackClose() {
+  var ch = false;
+  BETS.forEach(function (b) {
+    if (b.r !== "open" || !b.lg || b.lg.length !== 1) return;
+    var l = b.lg[0]; if (l.t !== "ml" || !l.eid || !l.side) return;
+    var g = X.index[String(l.eid)]; if (!g || !g.odds || g.state !== "pre") return;
+    var c = l.side === "a" ? g.odds.mlA : g.odds.mlH;
+    if (E.okOdds(c) && b.cl !== c) { b.cl = c; ch = true; }
+  });
+  if (ch) saveBets();
+}
 var refreshing = false;
 function refreshLive(force) {
   if (refreshing) return Promise.resolve();
@@ -47,7 +59,7 @@ function refreshLive(force) {
     buildPicks();
     return autoSettle();
   }).then(function () {
-    N.scan();
+    trackClose(); N.scan();
     var sig = stateSig();
     if (sig !== UI.sig) { UI.sig = sig; if (UI.tab !== "tools") rerender(); if (UI.sheet && UI.sheet.type === "game") paintGame(); }
     else { var st = X.status, chip = $("feedchip"); chip.className = "chip" + (st.ok === false ? " ls" : st.ok ? "" : " nt"); chip.textContent = st.ok === false ? "Offline" : st.ok ? "Live" : "Connecting"; }

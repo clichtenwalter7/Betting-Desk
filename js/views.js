@@ -208,6 +208,9 @@ function breakdownTable(rows) {
 function renderTracker() {
   var all = E.summary(BETS, S.unit), h = "";
   h += '<div class="st3">' + [["Profit", money(all.profit), cls(all.profit)], ["Units", (all.units >= 0 ? "+" : "") + (Math.round(all.units * 100) / 100) + "u", cls(all.units)], ["ROI", (all.roi * 100).toFixed(1) + "%", cls(all.roi)], ["Record", all.w + "-" + all.l + (all.p ? "-" + all.p : "")], ["Open", all.open + " (" + money(all.openRisk) + ")"], ["Streak", E.streak(BETS) || "—"]].map(function (x) { return "<div>" + x[0] + '<b class="' + (x[2] || "") + '" style="font-size:' + (x[0] === "Streak" ? "14px" : "20px") + '">' + esc(x[1]) + "</b></div>"; }).join("") + "</div>";
+  var cv = BETS.filter(function (b) { return b.cl && E.okOdds(b.o) && b.lg && b.lg.length === 1 && b.lg[0].t === "ml"; }).map(function (b) { return E.dec(b.o) / E.dec(b.cl) - 1; });
+  h += '<h2>Closing line value</h2><div class="card">' + (cv.length ? '<div class="st3"><div>Bets tracked<b>' + cv.length + "</b></div><div>Beat the close<b>" + cv.filter(function (x) { return x > 0.0005; }).length + "/" + cv.length + '</b></div><div>Avg CLV<b class="' + cls(cv.reduce(function (a, b) { return a + b; }, 0) / cv.length) + '">' + (cv.reduce(function (a, b) { return a + b; }, 0) / cv.length * 100).toFixed(1) + "%</b></div></div>" : "") +
+    '<div class="mu">Closing line value compares the price you got with DraftKings\' last price before the game started. Beating it consistently is the best early sign of a real edge, much faster than win/loss results. Tracked for single moneyline bets logged from a matched game. ' + (cv.length ? "" : "Nothing tracked yet: log a moneyline pick before the game starts and keep the app open or reopen it before kickoff.") + "</div></div>";
   h += "<h2>Bankroll</h2><div class=\"card\">" + chartSvg(E.series(BETS, S.start), S.start) + "</div>";
   var filt = BETS.filter(function (b) {
     if (UI.tfilter === "open" && b.r !== "open") return false;
