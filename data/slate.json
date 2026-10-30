@@ -1,63 +1,43 @@
 {
  "v": 1,
- "asof": "2026-10-29T08:10:00-07:00",
- "date": "2026-10-29",
+ "asof": "2026-10-30T07:53:02-07:00",
+ "date": "2026-10-30",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-10-29",
+   "d": "2026-10-30",
    "sp": "NHL",
-   "away": "Blue Jackets",
-   "home": "Hurricanes",
-   "pick": "Hurricanes",
-   "p": 0.71,
-   "why": "Blue Jackets -0.35 GD/game, Hurricanes +0.79 (53 GF, 34 GA, 10-2-2); home ice 0.159. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market.",
-   "when": "Thu 4:00 PM PT"
+   "away": "Kraken",
+   "home": "Flames",
+   "pick": "Kraken",
+   "p": 0.624,
+   "od": -115,
+   "why": "Kraken +0.17 GD/game (50 GF, 46 GA in 13), Flames -0.77 (28 GF, 45 GA in 12, 5-7-0); home ice 0.159 still leaves Seattle about 62%. Price Kraken about -115 / Flames about +100 from picks sites and Kalshi (52% Seattle); assumed close to DraftKings, not verified. Goalies not confirmed. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. NHL gaps are unvalidated against the market.",
+   "when": "Fri 5:00 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-10-29",
+   "d": "2026-10-30",
    "sp": "NHL",
-   "away": "Blackhawks",
-   "home": "Red Wings",
-   "pick": "Red Wings",
-   "p": 0.638,
-   "why": "Blackhawks -0.82 GD/game (26 GF, 44 GA), Red Wings -0.18; home ice 0.159. Chicago projected Spencer Knight, Detroit John Gibson (unconfirmed). Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market.",
-   "when": "Thu 4:30 PM PT"
+   "away": "Devils",
+   "home": "Golden Knights",
+   "pick": "Golden Knights",
+   "p": 0.571,
+   "od": -117,
+   "why": "Golden Knights +0.50 GD/game (51 GF, 39 GA, 9-4-1, 6-2-0 at home), Devils +0.22 (43 GF, 38 GA); home ice 0.159. Price Golden Knights -117 / Devils -103 from a picks site (assumed close to DraftKings). Carter Hart day-to-day (Adin Hill expected); Devils projected Hellebuyck (unconfirmed). Thin edge. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. NHL gaps are unvalidated against the market.",
+   "when": "Fri 3:00 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-10-29",
+   "d": "2026-10-30",
    "sp": "NHL",
-   "away": "Canucks",
-   "home": "Sharks",
-   "pick": "Sharks",
-   "p": 0.628,
-   "why": "Canucks -0.92 GD/game (65 GA in 14 games, worst in the league), Sharks -0.35; home ice 0.159. Projected Merilainen vs Nedeljkovic (unconfirmed). Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market.",
-   "when": "Thu 7:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-29",
-   "sp": "NHL",
-   "away": "Bruins",
-   "home": "Blues",
-   "pick": "Bruins",
-   "p": 0.62,
-   "why": "Bruins +0.91 GD/game (49 GF, 28 GA), Blues -0.09; Boston is away so home ice goes to St. Louis. Swayman vs Hofer projected (unconfirmed). Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. No verified DraftKings price found, so any price is estimated from my lean (marked est.). NHL gaps are unvalidated against the market.",
-   "when": "Thu 5:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-29",
-   "sp": "NHL",
-   "away": "Capitals",
-   "home": "Predators",
-   "pick": "Predators",
-   "p": 0.556,
-   "od": -108,
-   "why": "Capitals +0.10 GD/game but on the second night of a back-to-back (beat Flyers 5-2 Wed at home), Predators -0.23 with a 31.7% power play; home ice 0.159, back-to-back 0.28. Price Predators -108 / Capitals -112 from a picks site (assumed close to DraftKings). Thompson vs Saros projected (unconfirmed). Thin edge. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. Price is from a picks site, assumed close to DraftKings.",
-   "when": "Thu 5:00 PM PT"
+   "away": "Jets",
+   "home": "Panthers",
+   "pick": "Jets",
+   "p": 0.403,
+   "od": 180,
+   "why": "Underdog lean, low confidence. Model has Florida only about 60% (Panthers +0.09 GD/game, Jets -0.36, home ice 0.159) but the market prices Panthers about -220 / Jets +180 (about 66% no-vig), so the Jets price carries the edge. Against it: Jets 0-5-2 in their last 7, Winnipeg goalie unconfirmed. For it: Florida without Barkov and Marchand (IR) and Markstrom, projected Akira Schmid in goal. Price from TheSpread (assumed close to DraftKings). Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. NHL gaps are unvalidated against the market.",
+   "when": "Fri 4:00 PM PT"
   }
  ],
  "totals": [],
@@ -70,7 +50,7 @@
    "Knicks": {"m": 1, "n": 5},
    "Thunder": {"m": 18, "n": 5},
    "Spurs": {"m": 33, "n": 5},
-   "Hawks": {"m": 25, "n": 5},
+   "Hawks": {"m": 28, "n": 6},
    "Magic": {"m": -50, "n": 4},
    "Bucks": {"m": -54, "n": 5},
    "Wizards": {"m": -11, "n": 5},
@@ -81,30 +61,37 @@
    "Hornets": {"m": -36, "n": 5},
    "Nets": {"m": -39, "n": 4},
    "Pacers": {"m": 1, "n": 5},
-   "Pelicans": {"m": -23, "n": 4},
+   "Pelicans": {"m": -11, "n": 5},
    "Jazz": {"m": -39, "n": 5},
-   "Grizzlies": {"m": 39, "n": 4},
+   "Grizzlies": {"m": 60, "n": 5},
    "Mavericks": {"m": 10, "n": 5},
    "Rockets": {"m": 71, "n": 5},
    "Warriors": {"m": -9, "n": 5},
    "Lakers": {"m": 48, "n": 5},
    "Suns": {"m": -43, "n": 3},
-   "Trail Blazers": {"m": 56, "n": 3},
-   "Kings": {"m": -71, "n": 4},
+   "Trail Blazers": {"m": 35, "n": 4},
+   "Kings": {"m": -83, "n": 5},
    "Clippers": {"m": -6, "n": 4},
-   "Cavaliers": {"m": 8, "n": 4},
+   "Cavaliers": {"m": 5, "n": 5},
    "Nuggets": {"m": -13, "n": 4}
   },
   "games": [
-   {"d": "2026-10-29", "a": "Cavaliers", "h": "Hawks", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": true},
-   {"d": "2026-10-29", "a": "Kings", "h": "Pelicans", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
-   {"d": "2026-10-29", "a": "Grizzlies", "h": "Trail Blazers", "when": "7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
+   {"d": "2026-10-30", "a": "Hornets", "h": "Wizards", "when": "4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Bulls", "h": "Celtics", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Pistons", "h": "Nets", "when": "4:30 PM PT", "adjH": 0, "adjA": -2.0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Knicks", "h": "76ers", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Magic", "h": "Raptors", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Rockets", "h": "Mavericks", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Pacers", "h": "Heat", "when": "5:00 PM PT", "adjH": 0, "adjA": -1.0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Clippers", "h": "Timberwolves", "when": "5:00 PM PT", "adjH": -3.5, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Lakers", "h": "Warriors", "when": "7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-10-30", "a": "Nuggets", "h": "Suns", "when": "7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
   ]
  },
  "news": [
-  "World Series: Brewers beat the Rays 4-1 in Game 5 and win the title; no MLB games today.",
-  "NHL: 11 games. Capitals are on a back-to-back at Nashville. Jets-Lightning: Lightning -250/-230 (Jets +200/+210), model 62.6% is below the ~70% break-even, so pass. Canadiens at Stars, Islanders at Wild, Penguins/Mammoth looked at too close or no verified price; picks listed are model leans, prices est. unless shown. Goalies mostly unconfirmed (only Dobes confirmed for Montreal).",
-  "NBA: 3 games (Cavaliers at Hawks 5 PM PT, Kings at Pelicans 5 PM PT, Grizzlies at Trail Blazers 7 PM PT). DraftKings-area lines: ATL -1.5 (CLE -101 / ATL -109), NO -6.5 (SAC +203 / NO -233), POR -7.5 (MEM +241 / POR -278). Cavaliers, Hawks and Pelicans are on back-to-backs. Injury adjustments left at 0 where no verified report was found; check late scratches.",
-  "NFL TNF: Panthers at Packers, DraftKings Packers -185 / Panthers +154, -3.5, total 48.5. Market-only line (no-vig Packers about 62%); no edge found, no pick. College football: Florida Atlantic at North Texas, no line found, no pick."
+  "MLB: World Series is over (Brewers beat the Rays 4-1 in Game 5); no MLB games.",
+  "NHL: 3 games Friday: Devils at Golden Knights (3 PM PT), Jets at Panthers (4 PM PT), Kraken at Flames (5 PM PT). Lines are from picks sites (TheSpread, Kalshi), assumed close to DraftKings, not verified. Goalies unconfirmed. Jets-Panthers: Panthers -220 / Jets +180, model gives Florida only about 60%, so the lean is the Jets +180 (low confidence; Jets 0-5-2 in last 7). Florida is without Barkov, Marchand and Markstrom.",
+  "NBA: 10 NBA Cup games, none on a back-to-back. Lines seen (sources conflict, check the book): BOS -14.5 vs CHI, DET -7.5 (-300/+250) at BKN, MIA -8.5 vs IND, MIN -6.5 vs LAC, DEN -4.5 at PHX, PHI -3.5 vs NYK. Injury adjustments entered (assumed, in points): Edwards out for Minnesota -3.5, Duren out for Detroit -2.0, Haliburton doubtful for Indiana -1.0; all others 0 where no verified report. Check late scratches.",
+  "College football: Friday has Tulane at Charlotte (4 PM PT), Baylor at UCF (4:30 PM PT, Baylor -1.5, -118/-102, total 48.5) and Kent State at Sacramento State (7:30 PM PT). No model for these, no pick. NFL: no games today (Sunday slate is Week 8). Thursday finals for Panthers at Packers and Florida Atlantic at North Texas could not be verified this run."
  ]
 }
