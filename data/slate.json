@@ -1,97 +1,20 @@
-{
- "v": 1,
- "asof": "2026-10-30T07:53:02-07:00",
- "date": "2026-10-30",
- "picks": [
-  {
-   "type": "ml",
-   "d": "2026-10-30",
-   "sp": "NHL",
-   "away": "Kraken",
-   "home": "Flames",
-   "pick": "Kraken",
-   "p": 0.624,
-   "od": -115,
-   "why": "Kraken +0.17 GD/game (50 GF, 46 GA in 13), Flames -0.77 (28 GF, 45 GA in 12, 5-7-0); home ice 0.159 still leaves Seattle about 62%. Price Kraken about -115 / Flames about +100 from picks sites and Kalshi (52% Seattle); assumed close to DraftKings, not verified. Goalies not confirmed. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. NHL gaps are unvalidated against the market.",
-   "when": "Fri 5:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-30",
-   "sp": "NHL",
-   "away": "Devils",
-   "home": "Golden Knights",
-   "pick": "Golden Knights",
-   "p": 0.571,
-   "od": -117,
-   "why": "Golden Knights +0.50 GD/game (51 GF, 39 GA, 9-4-1, 6-2-0 at home), Devils +0.22 (43 GF, 38 GA); home ice 0.159. Price Golden Knights -117 / Devils -103 from a picks site (assumed close to DraftKings). Carter Hart day-to-day (Adin Hill expected); Devils projected Hellebuyck (unconfirmed). Thin edge. Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. NHL gaps are unvalidated against the market.",
-   "when": "Fri 3:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-10-30",
-   "sp": "NHL",
-   "away": "Jets",
-   "home": "Panthers",
-   "pick": "Jets",
-   "p": 0.403,
-   "od": 180,
-   "why": "Underdog lean, low confidence. Model has Florida only about 60% (Panthers +0.09 GD/game, Jets -0.36, home ice 0.159) but the market prices Panthers about -220 / Jets +180 (about 66% no-vig), so the Jets price carries the edge. Against it: Jets 0-5-2 in their last 7, Winnipeg goalie unconfirmed. For it: Florida without Barkov and Marchand (IR) and Markstrom, projected Akira Schmid in goal. Price from TheSpread (assumed close to DraftKings). Goal diff/game this season (Hockey-Reference, shrunk toward 0 with a 10-game prior weight; last-season prior not applied); rating gap 0.644 per goal. No goalie adjustment. NHL gaps are unvalidated against the market.",
-   "when": "Fri 4:00 PM PT"
-  }
- ],
- "totals": [],
- "props": [],
- "nba": {
-  "season": {
-   "Pistons": {"m": 32, "n": 5},
-   "Celtics": {"m": 32, "n": 4},
-   "76ers": {"m": 17, "n": 5},
-   "Knicks": {"m": 1, "n": 5},
-   "Thunder": {"m": 18, "n": 5},
-   "Spurs": {"m": 33, "n": 5},
-   "Hawks": {"m": 28, "n": 6},
-   "Magic": {"m": -50, "n": 4},
-   "Bucks": {"m": -54, "n": 5},
-   "Wizards": {"m": -11, "n": 5},
-   "Bulls": {"m": -81, "n": 5},
-   "Raptors": {"m": 60, "n": 4},
-   "Timberwolves": {"m": 63, "n": 5},
-   "Heat": {"m": -39, "n": 5},
-   "Hornets": {"m": -36, "n": 5},
-   "Nets": {"m": -39, "n": 4},
-   "Pacers": {"m": 1, "n": 5},
-   "Pelicans": {"m": -11, "n": 5},
-   "Jazz": {"m": -39, "n": 5},
-   "Grizzlies": {"m": 60, "n": 5},
-   "Mavericks": {"m": 10, "n": 5},
-   "Rockets": {"m": 71, "n": 5},
-   "Warriors": {"m": -9, "n": 5},
-   "Lakers": {"m": 48, "n": 5},
-   "Suns": {"m": -43, "n": 3},
-   "Trail Blazers": {"m": 35, "n": 4},
-   "Kings": {"m": -83, "n": 5},
-   "Clippers": {"m": -6, "n": 4},
-   "Cavaliers": {"m": 5, "n": 5},
-   "Nuggets": {"m": -13, "n": 4}
-  },
-  "games": [
-   {"d": "2026-10-30", "a": "Hornets", "h": "Wizards", "when": "4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Bulls", "h": "Celtics", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Pistons", "h": "Nets", "when": "4:30 PM PT", "adjH": 0, "adjA": -2.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Knicks", "h": "76ers", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Magic", "h": "Raptors", "when": "4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Rockets", "h": "Mavericks", "when": "5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Pacers", "h": "Heat", "when": "5:00 PM PT", "adjH": 0, "adjA": -1.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Clippers", "h": "Timberwolves", "when": "5:00 PM PT", "adjH": -3.5, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Lakers", "h": "Warriors", "when": "7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-10-30", "a": "Nuggets", "h": "Suns", "when": "7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
-  ]
- },
- "news": [
-  "MLB: World Series is over (Brewers beat the Rays 4-1 in Game 5); no MLB games.",
-  "NHL: 3 games Friday: Devils at Golden Knights (3 PM PT), Jets at Panthers (4 PM PT), Kraken at Flames (5 PM PT). Lines are from picks sites (TheSpread, Kalshi), assumed close to DraftKings, not verified. Goalies unconfirmed. Jets-Panthers: Panthers -220 / Jets +180, model gives Florida only about 60%, so the lean is the Jets +180 (low confidence; Jets 0-5-2 in last 7). Florida is without Barkov, Marchand and Markstrom.",
-  "NBA: 10 NBA Cup games, none on a back-to-back. Lines seen (sources conflict, check the book): BOS -14.5 vs CHI, DET -7.5 (-300/+250) at BKN, MIA -8.5 vs IND, MIN -6.5 vs LAC, DEN -4.5 at PHX, PHI -3.5 vs NYK. Injury adjustments entered (assumed, in points): Edwards out for Minnesota -3.5, Duren out for Detroit -2.0, Haliburton doubtful for Indiana -1.0; all others 0 where no verified report. Check late scratches.",
-  "College football: Friday has Tulane at Charlotte (4 PM PT), Baylor at UCF (4:30 PM PT, Baylor -1.5, -118/-102, total 48.5) and Kent State at Sacramento State (7:30 PM PT). No model for these, no pick. NFL: no games today (Sunday slate is Week 8). Thursday finals for Panthers at Packers and Florida Atlantic at North Texas could not be verified this run."
- ]
-}
+{"v":1,"asof":"2026-10-31T07:53:49-07:00","date":"2026-10-31","picks":[
+{"type":"ml","d":"2026-10-31","sp":"NHL","away":"Blackhawks","home":"Bruins","pick":"Bruins","p":0.764,"why":"Bruins +0.75 GD/game (50 GF, 32 GA in 14), Blackhawks -0.91 (27 GF, 48 GA in 13, 4-9-0); home ice 0.159. Market is a prediction-market price only (Bruins 69 cents on Novig, total 6); no sportsbook moneyline found, so price is estimated. Goalies not listed. NHL model unvalidated against the market.","when":"Sat 10:00 AM PT"},
+{"type":"ml","d":"2026-10-31","sp":"NHL","away":"Maple Leafs","home":"Canucks","pick":"Maple Leafs","p":0.65,"od":-162,"why":"Maple Leafs +0.20 GD/game (56 GF, 51 GA in 15), Canucks -0.92 (45 GF, 68 GA in 15, 3-11-1); home ice 0.159 still leaves Toronto about 65%. Price Maple Leafs -162 (Caesars), assumed close to DraftKings, not verified. Stolarz confirmed for Toronto, Merilainen likely for Vancouver.","when":"Sat 4:00 PM PT"},
+{"type":"ml","d":"2026-10-31","sp":"NHL","away":"Flames","home":"Avalanche","pick":"Avalanche","p":0.69,"why":"Avalanche +0.52 GD/game (54 GF, 42 GA in 13), Flames -0.57 (34 GF, 47 GA in 13 after Friday's 6-2 win over Seattle); home ice 0.159. No price found, so the page assumes one. Goalies not confirmed.","when":"Sat 7:00 PM PT"},
+{"type":"ml","d":"2026-10-31","sp":"NHL","away":"Senators","home":"Sharks","pick":"Sharks","p":0.479,"why":"Underdog lean, thin. Model has San Jose about 48% (Sharks -0.29 GD/game, Senators 0.00, home ice 0.159) against Novig 44 cents. Price estimated from the prediction market, not a sportsbook line. Goalies not listed.","when":"Sat 1:00 PM PT"},
+{"type":"ml","d":"2026-10-31","sp":"NHL","away":"Sabres","home":"Kings","pick":"Kings","p":0.516,"why":"Near coin flip. Kings -0.36 GD/game (34 GF, 42 GA in 12), Sabres -0.30 (40 GF, 47 GA in 13); home ice 0.159. Novig has Sabres 53 cents, Kings 48 cents; price estimated, not a sportsbook line. Goalies not listed.","when":"Sat 1:00 PM PT"}],
+"totals":[],"props":[],
+"nba":{"season":{"Pistons":{"m":48,"n":6},"Celtics":{"m":46,"n":5},"76ers":{"m":22,"n":6},"Knicks":{"m":-4,"n":6},"Thunder":{"m":18,"n":5},"Spurs":{"m":33,"n":5},"Hawks":{"m":28,"n":6},"Magic":{"m":-43,"n":5},"Bucks":{"m":-54,"n":5},"Wizards":{"m":5,"n":6},"Bulls":{"m":-95,"n":6},"Raptors":{"m":53,"n":5},"Timberwolves":{"m":89,"n":6},"Heat":{"m":-19,"n":6},"Hornets":{"m":-52,"n":6},"Nets":{"m":-55,"n":5},"Pacers":{"m":-19,"n":6},"Pelicans":{"m":-11,"n":5},"Jazz":{"m":-39,"n":5},"Grizzlies":{"m":60,"n":5},"Mavericks":{"m":15,"n":6},"Rockets":{"m":66,"n":6},"Warriors":{"m":8,"n":6},"Lakers":{"m":31,"n":6},"Suns":{"m":-50,"n":4},"Trail Blazers":{"m":35,"n":4},"Kings":{"m":-83,"n":5},"Clippers":{"m":-32,"n":5},"Cavaliers":{"m":5,"n":5},"Nuggets":{"m":-6,"n":5}},
+"games":[
+{"d":"2026-10-31","a":"Trail Blazers","h":"Jazz","when":"12:00 PM PT","adjH":-3.0,"adjA":-4.0,"b2bH":false,"b2bA":false},
+{"d":"2026-10-31","a":"76ers","h":"Hornets","when":"3:00 PM PT","adjH":0,"adjA":0,"b2bH":true,"b2bA":true},
+{"d":"2026-10-31","a":"Hawks","h":"Pelicans","when":"4:00 PM PT","adjH":0,"adjA":0,"b2bH":false,"b2bA":false},
+{"d":"2026-10-31","a":"Cavaliers","h":"Bucks","when":"5:00 PM PT","adjH":0,"adjA":-0.5,"b2bH":false,"b2bA":false},
+{"d":"2026-10-31","a":"Timberwolves","h":"Spurs","when":"5:00 PM PT","adjH":0,"adjA":-3.5,"b2bH":false,"b2bA":true},
+{"d":"2026-10-31","a":"Kings","h":"Grizzlies","when":"5:00 PM PT","adjH":0,"adjA":0,"b2bH":false,"b2bA":false},
+{"d":"2026-10-31","a":"Thunder","h":"Rockets","when":"5:30 PM PT","adjH":-0.5,"adjA":-4.0,"b2bH":true,"b2bA":false}]},
+"news":["MLB: World Series is over; no MLB games. NFL: no games Saturday (Week 8 is Sunday). Friday finals: Devils 5, Golden Knights 2; Jets 2, Panthers 5; Kraken 2, Flames 6.",
+"NHL: 10 games Saturday. Picks are the model side where it beats the market: Bruins (Novig 69 cents, model 76%), Maple Leafs -162 at Vancouver, Avalanche (no price found), Sharks and Kings thin leans. Skipped as no edge: Oilers-Islanders (Oilers 54 cents), Penguins-Canadiens (Canadiens -150), Blue Jackets-Stars, Blues-Red Wings, Lightning-Predators. Many prices are prediction-market quotes, not DraftKings, and goalies are mostly unconfirmed.",
+"NBA: 7 games Saturday. Back-to-backs: 76ers and Hornets (both), Timberwolves, Rockets. Lines seen on Covers (unverified): POR -8.5 at UTA, PHI -1.5 at CHA, ATL -4.5 at NO, MIN +12.5 at SA, SAC +8.5 at MEM, CLE -9.5 at MIL, OKC +2.5 at HOU. Injury adjustments entered are assumed in points: Utah -3.0, Portland -4.0 (Morant, Sharpe out), Minnesota -3.5 (Edwards out), Oklahoma City -4.0 (J. Williams, Wallace, Caruso out), Houston -0.5, Cleveland -0.5. Check late scratches.",
+"College football: Saturday Week 9 slate not modeled; no picks. Friday college finals could not be verified this run."]}
