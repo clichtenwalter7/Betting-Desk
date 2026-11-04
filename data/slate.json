@@ -1,84 +1,55 @@
 {
  "v": 1,
- "asof": "2026-11-03T07:51:28-08:00",
- "date": "2026-11-03",
+ "asof": "2026-11-04T07:52:09-08:00",
+ "date": "2026-11-04",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-03",
+   "d": "2026-11-04",
    "sp": "NHL",
-   "away": "Wild",
-   "home": "Flyers",
-   "pick": "Wild",
-   "p": 0.7,
-   "why": "Model GD/game (shrunk 20%): Wild +0.80 (52 GF, 36 GA in 16), Flyers -0.95 (35 GF, 54 GA in 16, 4-8-4); home ice .159, k .644. Raw model ~74%, capped near 70%. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 4:00 PM PT"
+   "away": "Senators",
+   "home": "Sabres",
+   "pick": "Senators",
+   "p": 0.452,
+   "od": 114,
+   "why": "Model Senators 52% (GD/game shrunk 20%: Senators +0.05, Sabres -0.34; home .159, k .644) vs DraftKings no-vig 45% (Senators +114/Sabres -135, DK close via ESPN). Blended p = 5% model + 95% market per runbook, so edge is thin. Ersson (OTT) vs Ellis (BUF) expected. NHL model unvalidated: lean only.",
+   "when": "Wed 4:30 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-11-03",
+   "d": "2026-11-04",
    "sp": "NHL",
-   "away": "Jets",
-   "home": "Canadiens",
-   "pick": "Canadiens",
-   "p": 0.7,
-   "why": "Model GD/game (shrunk): Canadiens +0.34 (48 GF, 42 GA in 14), Jets -1.07 (34 GF, 54 GA in 15, 4-8-3); home ice .159. Raw model ~73%, capped. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 4:00 PM PT"
+   "away": "Blackhawks",
+   "home": "Panthers",
+   "pick": "Panthers",
+   "p": 0.686,
+   "od": -250,
+   "why": "Model Panthers 70% (GD/game shrunk 20%: Blackhawks -1.33, Panthers +0.16; home .159, k .644) vs DraftKings no-vig 69% (Blackhawks +205/Panthers -250, DK close via ESPN). Blended p = 5% model + 95% market per runbook, so edge is thin. Knight (CHI) vs Markstrom (FLA) expected. NHL model unvalidated: lean only.",
+   "when": "Wed 4:30 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-11-03",
+   "d": "2026-11-04",
    "sp": "NHL",
-   "away": "Avalanche",
-   "home": "Blue Jackets",
-   "pick": "Avalanche",
-   "p": 0.68,
-   "why": "Model GD/game (shrunk): Avalanche +0.96 (64 GF, 46 GA), Blue Jackets -0.67 (29 GF, 39 GA in 12); Colorado is on the second night of a back-to-back (-.28) with Wedgewood confirmed in net, a likely backup, so size down. Raw ~75%, trimmed. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 4:00 PM PT"
+   "away": "Sharks",
+   "home": "Kings",
+   "pick": "Sharks",
+   "p": 0.419,
+   "od": 130,
+   "why": "Model Sharks 45% (GD/game shrunk 20%: Sharks -0.60, Kings -0.55; home .159, k .644) vs DraftKings no-vig 42% (Sharks +130/Kings -155, DK close via ESPN). Blended p = 5% model + 95% market per runbook, so edge is thin. Askarov (SJ) vs Kuemper (LA) expected. NHL model unvalidated: lean only.",
+   "when": "Wed 7:00 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-11-03",
+   "d": "2026-11-04",
    "sp": "NHL",
-   "away": "Hurricanes",
-   "home": "Predators",
-   "pick": "Hurricanes",
-   "p": 0.68,
-   "why": "Model GD/game (shrunk): Hurricanes +1.35 (63 GF, 36 GA in 16, 12-2-2), Predators -0.29 (42 GF, 47 GA in 14); home ice .159. Raw ~72%, trimmed. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 5:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-03",
-   "sp": "NHL",
-   "away": "Ducks",
-   "home": "Canucks",
-   "pick": "Ducks",
-   "p": 0.62,
-   "why": "Model GD/game (shrunk): Ducks -0.23 (49 GF, 53 GA), Canucks -1.25 (47 GF, 72 GA in 16, 3-12-1); home ice .159. Raw model ~64%. Dostal vs Lankinen unconfirmed. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 6:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-03",
-   "sp": "NHL",
-   "away": "Golden Knights",
-   "home": "Penguins",
-   "pick": "Golden Knights",
-   "p": 0.58,
-   "why": "Model GD/game (shrunk): Golden Knights +0.40 (55 GF, 47 GA), Penguins -0.11; Vegas is on a back-to-back (played Mon at Boston, -.28) and home ice .159, so raw model is ~60% for Vegas. Thin edge, small size. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 4:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-03",
-   "sp": "NHL",
-   "away": "Oilers",
-   "home": "Devils",
-   "pick": "Oilers",
-   "p": 0.56,
-   "why": "Model GD/game (shrunk): Oilers +1.07 (64 GF, 44 GA, 11-2-2), Devils +0.46 (48 GF, 40 GA); home ice for NJ .159 leaves the raw model at ~57% for Edmonton. Thin edge, small size. Goalies unconfirmed unless noted. No sportsbook price found, so price is assumed by the app. NHL model is unvalidated: treat as a lean.",
-   "when": "Tue 4:30 PM PT"
+   "away": "Flames",
+   "home": "Kraken",
+   "pick": "Kraken",
+   "p": 0.587,
+   "od": -155,
+   "why": "Model Kraken 66% (GD/game shrunk 20%: Flames -0.80, Kraken +0.00; home .159, k .644) vs DraftKings no-vig 58% (Flames +130/Kraken -155, DK close via ESPN). Blended p = 5% model + 95% market per runbook, so edge is thin. Wolf (CGY) vs Grubauer (SEA) expected. NHL model unvalidated: lean only.",
+   "when": "Wed 7:00 PM PT"
   }
  ],
  "totals": [],
@@ -116,13 +87,27 @@
    "Cavaliers": {"m": 25, "n": 7},
    "Nuggets": {"m": -14, "n": 6}
   },
-  "games": []
+  "games": [
+   {"d": "2026-11-04", "a": "Hawks", "h": "Wizards", "when": "Wed 4:00 PM PT", "adjH": -1.0, "adjA": -1.0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "76ers", "h": "Pistons", "when": "Wed 4:00 PM PT", "adjH": -3.5, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Bucks", "h": "Celtics", "when": "Wed 4:30 PM PT", "adjH": -3.5, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Hornets", "h": "Nets", "when": "Wed 4:30 PM PT", "adjH": -1.0, "adjA": -0.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Bulls", "h": "Knicks", "when": "Wed 4:30 PM PT", "adjH": -1.0, "adjA": -1.0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Cavaliers", "h": "Thunder", "when": "Wed 5:00 PM PT", "adjH": -9, "adjA": -2.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Jazz", "h": "Pelicans", "when": "Wed 5:00 PM PT", "adjH": -1.5, "adjA": -5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Pacers", "h": "Grizzlies", "when": "Wed 5:00 PM PT", "adjH": -0.5, "adjA": -6.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Timberwolves", "h": "Rockets", "when": "Wed 5:30 PM PT", "adjH": -1.5, "adjA": -8, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Raptors", "h": "Nuggets", "when": "Wed 6:00 PM PT", "adjH": -0.5, "adjA": -4.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Trail Blazers", "h": "Suns", "when": "Wed 6:00 PM PT", "adjH": -1.5, "adjA": -6.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Mavericks", "h": "Spurs", "when": "Wed 6:30 PM PT", "adjH": -0.5, "adjA": -3.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Lakers", "h": "Kings", "when": "Wed 7:00 PM PT", "adjH": -3.5, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-04", "a": "Heat", "h": "Clippers", "when": "Wed 7:30 PM PT", "adjH": -5, "adjA": -0.5, "b2bH": false, "b2bA": false}
+  ]
  },
  "news": [
-  "NBA: no games today (Election Day). Monday finals added to the ratings: Thunder 117-112 at Cavaliers, Pistons 124-91 at Hornets, Wizards 103-94 at Magic, Knicks 103-90 over Nets, 76ers 126-107 over Bulls, Hawks 108-104 at Pacers, Pelicans 135-134 OT at Grizzlies, Timberwolves 112-100 over Bucks, Kings 115-100 at Mavericks, Spurs 119-97 over Jazz, Rockets 109-93 over Celtics, Trail Blazers 118-110 at Nuggets, Warriors 116-113 over Suns.",
-  "NHL Monday finals: Bruins 3-2 SO over Golden Knights, Red Wings 5-3 at Panthers, Avalanche 5-2 at Blackhawks, Flames 2-1 at Sharks.",
-  "NHL: 11 games Tuesday. Model leans listed with no sportsbook prices found; sizes come from the app's assumed pricing. Colorado (Wedgewood confirmed) and Vegas are on back-to-backs; Toronto's Bobrovsky is confirmed.",
-  "NFL: no games Tuesday. Bears-Seahawks Monday result could not be confirmed in this run, so check the final before grading. MLB season is over. College football: MAC Tuesday games exist (e.g. Delaware at Western Kentucky, Sam Houston at Missouri State were already tracked) but no lines found, so no college picks.",
-  "Note: fetch_sports_data was not available in this run, so scores and goalie news came from web pages and may lag; some score pages disagreed, only games matching the schedule were used. Verify prices on DraftKings."
+  "NHL: 4 games Wednesday with real DraftKings closing moneylines (via ESPN). Probable goalies are expected, not confirmed. Edges are thin because the model is blended 95% to the market.",
+  "NBA: 14 games Wednesday, priced by the app. No back-to-backs (no NBA games Tuesday). Injury adjustments are assumed from fantasydata/Covers lists, which looked partly stale: OKC missing Holmgren/J. Williams/Wallace, MIN missing Edwards, IND missing Haliburton, TOR missing Leonard, POR missing Morant/Sharpe, LAC missing Beal/Ingram; Tatum listed out (rest) or questionable, confirm before betting.",
+  "NFL: no games Wednesday. MLB season is over. College football: 3 MAC games (Ball State at UMass, Toledo at Sacramento State, Central Michigan vs Eastern Michigan at Ford Field) have lines but no model, so no picks.",
+  "Note: fetch_sports_data was not available in this run; data came from ESPN and NHL public APIs and web pages and may lag. Verify prices on DraftKings. Picks are model output, not guarantees."
  ]
 }
