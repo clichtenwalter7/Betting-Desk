@@ -1,93 +1,321 @@
 {
  "v": 1,
- "asof": "2026-11-06T07:54:36-08:00",
- "date": "2026-11-06",
+ "asof": "2026-11-07T07:52:18-08:00",
+ "date": "2026-11-07",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-06",
+   "d": "2026-11-07",
    "sp": "NHL",
-   "away": "Blue Jackets",
-   "home": "Sabres",
-   "pick": "Sabres",
-   "p": 0.6,
-   "why": "Sabres about -156 to -167 (open -169), Blue Jackets +140 to +153. Projected goalies Ellis (BUF, .891) vs Talbot (CBJ, .909), both unconfirmed. Market-only lean: no team model or confirmed goalies today (all unconfirmed), so p is the no-vig market probability from Covers per-book range (book not named), no edge claimed. Price assumed, not verified.",
-   "when": "Fri 4:00 PM PT"
+   "away": "Panthers",
+   "home": "Capitals",
+   "pick": "Capitals",
+   "p": 0.54,
+   "why": "Panthers +111 / Capitals -125 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Markstrom (Panthers) vs Thompson (Capitals), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 9:30 AM PT"
   },
   {
    "type": "ml",
-   "d": "2026-11-06",
+   "d": "2026-11-07",
    "sp": "NHL",
-   "away": "Ducks",
-   "home": "Flames",
-   "pick": "Flames",
-   "p": 0.57,
-   "why": "Flames about -133 to -143 (open -121), Ducks +119 to +133. Projected Wolf (CGY, .870) vs Dostal (ANA, .871), unconfirmed. Market-only lean: no team model or confirmed goalies today (all unconfirmed), so p is the no-vig market probability from Covers per-book range (book not named), no edge claimed. Price assumed, not verified.",
-   "when": "Fri 5:00 PM PT"
+   "away": "Rangers",
+   "home": "Kraken",
+   "pick": "Rangers",
+   "p": 0.528,
+   "why": "Rangers -119 / Kraken +106 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Garand (Rangers) vs Daccord (Kraken), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 2:00 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-11-06",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Devils",
+   "home": "Islanders",
+   "pick": "Devils",
+   "p": 0.569,
+   "why": "Devils -142 / Islanders +125 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Hellebuyck (Devils) vs Sorokin (likely) (Islanders), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 4:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Mammoth",
+   "home": "Senators",
+   "pick": "Mammoth",
+   "p": 0.522,
+   "why": "Mammoth -116 / Senators +103 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Vejmelka (Mammoth) vs Ersson (Senators), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 4:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Blackhawks",
+   "home": "Hurricanes",
+   "pick": "Hurricanes",
+   "p": 0.778,
+   "why": "Blackhawks +335 / Hurricanes -412 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Knight (Blackhawks) vs Kochetkov (Hurricanes), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 5:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Lightning",
+   "home": "Wild",
+   "pick": "Lightning",
+   "p": 0.556,
+   "why": "Lightning -134 / Wild +119 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Vasilevskiy (Lightning) vs Pickard (confirmed) (Wild), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 5:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
    "sp": "NHL",
    "away": "Sharks",
-   "home": "Wild",
-   "pick": "Wild",
-   "p": 0.69,
-   "why": "Wild about -238 to -263 (open -257), Sharks +208 to +233. Projected Wallstedt (MIN, .919) vs Askarov (SJ, .887), unconfirmed. Market-only lean: no team model or confirmed goalies today (all unconfirmed), so p is the no-vig market probability from Covers per-book range (book not named), no edge claimed. Price assumed, not verified.",
-   "when": "Fri 5:00 PM PT"
+   "home": "Stars",
+   "pick": "Stars",
+   "p": 0.72,
+   "why": "Sharks +245 / Stars -291 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Askarov (Sharks) vs Oettinger (Stars), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 5:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Penguins",
+   "home": "Kings",
+   "pick": "Kings",
+   "p": 0.538,
+   "why": "Penguins +110 / Kings -124 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Silovs (Penguins) vs Kuemper (Kings), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 6:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Red Wings",
+   "home": "Avalanche",
+   "pick": "Avalanche",
+   "p": 0.663,
+   "why": "Red Wings +188 / Avalanche -217 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Tarasov (Red Wings) vs Blackwood (Avalanche), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 6:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-07",
+   "sp": "NHL",
+   "away": "Canucks",
+   "home": "Oilers",
+   "pick": "Oilers",
+   "p": 0.745,
+   "why": "Canucks +279 / Oilers -334 (Covers opening-column prices, book not named, as of ~6:40 AM ET). Projected goalies Merilainen (Canucks) vs Jarry (Oilers), mostly unconfirmed. Market-only lean: no team model edge claimed, p is the no-vig market probability. Price assumed, not verified.",
+   "when": "Sat 7:00 PM PT"
   }
  ],
  "totals": [],
  "props": [],
  "nba": {
   "season": {
-   "Pistons": {"m": 75, "n": 8},
-   "Celtics": {"m": 48, "n": 8},
-   "76ers": {"m": 52, "n": 9},
-   "Knicks": {"m": 39, "n": 8},
-   "Thunder": {"m": 10, "n": 8},
-   "Spurs": {"m": 66, "n": 8},
-   "Hawks": {"m": 25, "n": 9},
-   "Magic": {"m": -63, "n": 7},
-   "Bucks": {"m": -98, "n": 8},
-   "Wizards": {"m": -1, "n": 8},
-   "Bulls": {"m": -144, "n": 8},
-   "Raptors": {"m": 28, "n": 7},
-   "Timberwolves": {"m": 101, "n": 9},
-   "Heat": {"m": -18, "n": 7},
-   "Hornets": {"m": -100, "n": 9},
-   "Nets": {"m": -50, "n": 8},
-   "Pacers": {"m": -27, "n": 9},
-   "Pelicans": {"m": 19, "n": 8},
-   "Jazz": {"m": -90, "n": 8},
-   "Grizzlies": {"m": 86, "n": 8},
-   "Mavericks": {"m": -1, "n": 8},
-   "Rockets": {"m": 93, "n": 9},
-   "Warriors": {"m": 23, "n": 8},
-   "Lakers": {"m": 50, "n": 8},
-   "Suns": {"m": -66, "n": 6},
-   "Trail Blazers": {"m": 78, "n": 7},
-   "Kings": {"m": -112, "n": 8},
-   "Clippers": {"m": -45, "n": 7},
-   "Cavaliers": {"m": 17, "n": 8},
-   "Nuggets": {"m": 5, "n": 7}
+   "Pistons": {
+    "m": 75,
+    "n": 8
+   },
+   "Celtics": {
+    "m": 87,
+    "n": 9
+   },
+   "76ers": {
+    "m": 28,
+    "n": 10
+   },
+   "Knicks": {
+    "m": 39,
+    "n": 8
+   },
+   "Thunder": {
+    "m": 41,
+    "n": 9
+   },
+   "Spurs": {
+    "m": 81,
+    "n": 9
+   },
+   "Hawks": {
+    "m": 32,
+    "n": 10
+   },
+   "Magic": {
+    "m": -63,
+    "n": 7
+   },
+   "Bucks": {
+    "m": -112,
+    "n": 9
+   },
+   "Wizards": {
+    "m": -8,
+    "n": 9
+   },
+   "Bulls": {
+    "m": -144,
+    "n": 8
+   },
+   "Raptors": {
+    "m": 42,
+    "n": 8
+   },
+   "Timberwolves": {
+    "m": 107,
+    "n": 10
+   },
+   "Heat": {
+    "m": -18,
+    "n": 7
+   },
+   "Hornets": {
+    "m": -139,
+    "n": 10
+   },
+   "Nets": {
+    "m": -50,
+    "n": 8
+   },
+   "Pacers": {
+    "m": -27,
+    "n": 9
+   },
+   "Pelicans": {
+    "m": 13,
+    "n": 9
+   },
+   "Jazz": {
+    "m": -102,
+    "n": 9
+   },
+   "Grizzlies": {
+    "m": 55,
+    "n": 9
+   },
+   "Mavericks": {
+    "m": 11,
+    "n": 9
+   },
+   "Rockets": {
+    "m": 93,
+    "n": 9
+   },
+   "Warriors": {
+    "m": 23,
+    "n": 8
+   },
+   "Lakers": {
+    "m": 56,
+    "n": 9
+   },
+   "Suns": {
+    "m": -66,
+    "n": 6
+   },
+   "Trail Blazers": {
+    "m": 72,
+    "n": 8
+   },
+   "Kings": {
+    "m": -127,
+    "n": 9
+   },
+   "Clippers": {
+    "m": -45,
+    "n": 7
+   },
+   "Cavaliers": {
+    "m": 41,
+    "n": 9
+   },
+   "Nuggets": {
+    "m": 5,
+    "n": 7
+   }
   },
   "games": [
-   {"d": "2026-11-06", "a": "Wizards", "h": "Hawks", "when": "Fri 4:00 PM PT", "adjH": 0, "adjA": -1.5, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Celtics", "h": "Hornets", "when": "Fri 4:00 PM PT", "adjH": -1, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "76ers", "h": "Cavaliers", "when": "Fri 4:30 PM PT", "adjH": -1, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Thunder", "h": "Grizzlies", "when": "Fri 5:00 PM PT", "adjH": -1, "adjA": -5, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Timberwolves", "h": "Pelicans", "when": "Fri 5:00 PM PT", "adjH": -2, "adjA": -4, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Raptors", "h": "Bucks", "when": "Fri 5:00 PM PT", "adjH": 0, "adjA": -3, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Jazz", "h": "Mavericks", "when": "Fri 5:00 PM PT", "adjH": 0, "adjA": -3, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Trail Blazers", "h": "Lakers", "when": "Fri 7:00 PM PT", "adjH": 0, "adjA": -4, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-06", "a": "Spurs", "h": "Kings", "when": "Fri 7:00 PM PT", "adjH": -2, "adjA": -0.5, "b2bH": false, "b2bA": false}
+   {
+    "d": "2026-11-07",
+    "a": "Nuggets",
+    "h": "Pacers",
+    "when": "Sat 2:00 PM PT",
+    "adjH": -3.5,
+    "adjA": 0,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-07",
+    "a": "Nets",
+    "h": "Hawks",
+    "when": "Sat 4:30 PM PT",
+    "adjH": -1,
+    "adjA": -0.5,
+    "b2bH": true,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-07",
+    "a": "Knicks",
+    "h": "Cavaliers",
+    "when": "Sat 5:00 PM PT",
+    "adjH": 0,
+    "adjA": -0.5,
+    "b2bH": true,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-07",
+    "a": "Wizards",
+    "h": "Thunder",
+    "when": "Sat 5:00 PM PT",
+    "adjH": -5,
+    "adjA": -1.5,
+    "b2bH": true,
+    "b2bA": true
+   },
+   {
+    "d": "2026-11-07",
+    "a": "Magic",
+    "h": "Warriors",
+    "when": "Sat 5:30 PM PT",
+    "adjH": -3,
+    "adjA": -6,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-07",
+    "a": "Rockets",
+    "h": "Suns",
+    "when": "Sat 6:00 PM PT",
+    "adjH": -0.5,
+    "adjA": -1,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-07",
+    "a": "Spurs",
+    "h": "Trail Blazers",
+    "when": "Sat 7:00 PM PT",
+    "adjH": -4,
+    "adjA": -0.5,
+    "b2bH": true,
+    "b2bA": true
+   }
   ]
  },
  "news": [
-  "NHL: 3 games Friday, all goalies unconfirmed; leans are market-only (Covers per-book ranges, book not named), no model edge claimed.",
-  "NBA: 9 games Friday, lines from BetMGM/DK/FD via Covers. Injury adjustments are my estimates from the Covers report (Edwards, Holmgren, J. Williams, Morant/Sharpe, Leonard, Jackson Jr./Nurkic out). Back-to-back flags unverified (false). Thursday NBA finals could not be verified reliably, so ratings were not updated.",
-  "NFL: no games Friday or Saturday (Thursday: Jaguars 33, Ravens 10). College football: spreads and totals could not be retrieved reliably, so no CFB picks. MLB season is over.",
-  "No Thursday NHL scores could be retrieved; those games stay unsettled."
+  "NHL: 12 games Saturday, only Minnesota's goalie confirmed; 10 market-only leans (Covers opening prices, book not named), no model edge claimed. Pick'em games (Blues-Predators, Canadiens-Maple Leafs) skipped.",
+  "NBA: 7 games Saturday. Friday's nine finals added to season margins (Nov 5 Suns-Magic and Heat-Warriors results not retrieved, so those teams are a game short). Injury adjustments are my estimates; back-to-backs for ATL, CLE, WAS, OKC, SA, POR. Houston-Phoenix and Spurs-Blazers favorites conflicted between sources, app prices them itself.",
+  "NFL: no games Saturday (Sunday slate not yet priced). College football has a big Saturday (Miami at Notre Dame, Alabama at LSU, Oregon at Ohio State, Ole Miss at Georgia) but spreads came from unnamed books, so no CFB picks. MLB season is over.",
+  "Friday NHL finals could not be retrieved reliably; those games stay unsettled."
  ]
 }
