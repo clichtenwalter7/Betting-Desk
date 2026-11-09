@@ -1,342 +1,70 @@
 {
  "v": 1,
- "asof": "2026-11-08T07:54:38-08:00",
- "date": "2026-11-08",
+ "asof": "2026-11-09T07:51:57-08:00",
+ "date": "2026-11-09",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-08",
+   "d": "2026-11-09",
    "sp": "NFL",
-   "away": "Cowboys",
-   "home": "Colts",
-   "pick": "Cowboys",
-   "p": 0.68,
-   "why": "Cowboys at Colts: Cowboys favored per DraftKings spread (DAL -5.5, total 51.5 (DK)). Covers opening-column moneylines Cowboys -240 / Colts +201, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Rams",
-   "home": "Commanders",
-   "pick": "Rams",
-   "p": 0.696,
-   "why": "Rams at Commanders: Rams favored per DraftKings spread (LAR -4.5, total 47.5 (DK)). Covers opening-column moneylines Rams -261 / Commanders +216, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Jets",
-   "home": "Chiefs",
-   "pick": "Chiefs",
-   "p": 0.787,
-   "why": "Jets at Chiefs: Chiefs favored per DraftKings spread (KC -9.5, total 48.5 (DK)). Covers opening-column moneylines Jets +350 / Chiefs -461, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Lions",
-   "home": "Dolphins",
-   "pick": "Lions",
-   "p": 0.738,
-   "why": "Lions at Dolphins: Lions favored per DraftKings spread (DET -6.5, total 49.5 (DK)). Covers opening-column moneylines Lions -332 / Dolphins +266, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Browns",
-   "home": "Saints",
-   "pick": "Saints",
-   "p": 0.6,
-   "why": "Browns at Saints: Saints favored per DraftKings spread (NO -3, total 42.5 (DK)). Covers opening-column moneylines Browns +141 / Saints -164, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Giants",
-   "home": "Eagles",
-   "pick": "Giants",
-   "p": 0.626,
-   "why": "Giants at Eagles: Giants favored per DraftKings spread (NYG -3, total 38.5 (DK)). Covers opening-column moneylines Giants -184 / Eagles +158, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Broncos",
-   "home": "Panthers",
-   "pick": "Broncos",
-   "p": 0.592,
-   "why": "Broncos at Panthers: Broncos favored per DraftKings spread (DEN -2.5, total 44.5 (DK)). Covers opening-column moneylines Broncos -158 / Panthers +137, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Texans",
-   "home": "Chargers",
-   "pick": "Texans",
-   "p": 0.664,
-   "why": "Texans at Chargers: Texans favored per DraftKings spread (HOU -6, total 40.5 (DK)). Covers opening-column moneylines Texans -221 / Chargers +187, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 1:05 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Packers",
-   "home": "Patriots",
-   "pick": "Patriots",
-   "p": 0.574,
-   "why": "Packers at Patriots: Patriots favored per DraftKings spread (NE -3, total 44.5 (DK)). Covers opening-column moneylines Packers +127 / Patriots -146, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 1:25 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Raiders",
-   "home": "49ers",
-   "pick": "49ers",
-   "p": 0.784,
-   "why": "Raiders at 49ers: 49ers favored per DraftKings spread (SF -9.5, total 51.5 (DK)). Covers opening-column moneylines Raiders +344 / 49ers -450, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 1:25 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Cardinals",
-   "home": "Seahawks",
-   "pick": "Seahawks",
-   "p": 0.82,
-   "why": "Cardinals at Seahawks: Seahawks favored per DraftKings spread (SEA -8.5, total 39.5 (DK)). Covers opening-column moneylines Cardinals +433 / Seahawks -599, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 1:25 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-08",
-   "sp": "NFL",
-   "away": "Buccaneers",
-   "home": "Bears",
-   "pick": "Bears",
-   "p": 0.684,
-   "why": "Buccaneers at Bears: Bears favored per DraftKings spread (CHI -6, total 47.5 (DK)). Covers opening-column moneylines Buccaneers +205 / Bears -245, book not named, so price is assumed, not verified. Market-only lean: no team-model edge claimed, p is the no-vig market probability. No injury report was available from the pages read; confirm QBs before betting.",
-   "when": "Sun 5:20 PM PT"
+   "away": "Bills",
+   "home": "Vikings",
+   "pick": "Bills",
+   "p": 0.59,
+   "why": "Bills at Vikings (MNF, both 6-1): Bills favored by 3 per DraftKings via ESPN, total 43.5-44.5. Moneyline was not found, so the price is assumed (about Bills -155 / Vikings +135), not verified. Market-only lean: p is the no-vig market probability, no model edge claimed. No injury report retrieved; confirm QBs and the price before betting.",
+   "when": "Mon evening PT (kickoff time not retrieved)"
   }
  ],
  "totals": [],
  "props": [],
  "nba": {
   "season": {
-   "Pistons": {
-    "m": 75,
-    "n": 8
-   },
-   "Celtics": {
-    "m": 87,
-    "n": 9
-   },
-   "76ers": {
-    "m": 28,
-    "n": 10
-   },
-   "Knicks": {
-    "m": 51,
-    "n": 9
-   },
-   "Thunder": {
-    "m": 80,
-    "n": 10
-   },
-   "Spurs": {
-    "m": 103,
-    "n": 10
-   },
-   "Hawks": {
-    "m": 35,
-    "n": 11
-   },
-   "Magic": {
-    "m": -70,
-    "n": 8
-   },
-   "Bucks": {
-    "m": -112,
-    "n": 9
-   },
-   "Wizards": {
-    "m": -47,
-    "n": 10
-   },
-   "Bulls": {
-    "m": -144,
-    "n": 8
-   },
-   "Raptors": {
-    "m": 42,
-    "n": 8
-   },
-   "Timberwolves": {
-    "m": 107,
-    "n": 10
-   },
-   "Heat": {
-    "m": -18,
-    "n": 7
-   },
-   "Hornets": {
-    "m": -139,
-    "n": 10
-   },
-   "Nets": {
-    "m": -53,
-    "n": 9
-   },
-   "Pacers": {
-    "m": -39,
-    "n": 10
-   },
-   "Pelicans": {
-    "m": 13,
-    "n": 9
-   },
-   "Jazz": {
-    "m": -102,
-    "n": 9
-   },
-   "Grizzlies": {
-    "m": 55,
-    "n": 9
-   },
-   "Mavericks": {
-    "m": 11,
-    "n": 9
-   },
-   "Rockets": {
-    "m": 90,
-    "n": 10
-   },
-   "Warriors": {
-    "m": 30,
-    "n": 9
-   },
-   "Lakers": {
-    "m": 56,
-    "n": 9
-   },
-   "Suns": {
-    "m": -63,
-    "n": 7
-   },
-   "Trail Blazers": {
-    "m": 50,
-    "n": 9
-   },
-   "Kings": {
-    "m": -127,
-    "n": 9
-   },
-   "Clippers": {
-    "m": -45,
-    "n": 7
-   },
-   "Cavaliers": {
-    "m": 29,
-    "n": 10
-   },
-   "Nuggets": {
-    "m": 17,
-    "n": 8
-   }
+   "Pistons": {"m": 70, "n": 9},
+   "Celtics": {"m": 107, "n": 10},
+   "76ers": {"m": 34, "n": 11},
+   "Knicks": {"m": 51, "n": 9},
+   "Thunder": {"m": 80, "n": 10},
+   "Spurs": {"m": 103, "n": 10},
+   "Hawks": {"m": 35, "n": 11},
+   "Magic": {"m": -70, "n": 8},
+   "Bucks": {"m": -132, "n": 10},
+   "Wizards": {"m": -47, "n": 10},
+   "Bulls": {"m": -150, "n": 9},
+   "Raptors": {"m": 42, "n": 8},
+   "Timberwolves": {"m": 122, "n": 11},
+   "Heat": {"m": -12, "n": 8},
+   "Hornets": {"m": -139, "n": 10},
+   "Nets": {"m": -90, "n": 10},
+   "Pacers": {"m": -39, "n": 10},
+   "Pelicans": {"m": -3, "n": 10},
+   "Jazz": {"m": -117, "n": 10},
+   "Grizzlies": {"m": 55, "n": 9},
+   "Mavericks": {"m": 48, "n": 10},
+   "Rockets": {"m": 90, "n": 10},
+   "Warriors": {"m": 30, "n": 9},
+   "Lakers": {"m": 61, "n": 10},
+   "Suns": {"m": -63, "n": 7},
+   "Trail Blazers": {"m": 50, "n": 9},
+   "Kings": {"m": -133, "n": 10},
+   "Clippers": {"m": -29, "n": 8},
+   "Cavaliers": {"m": 29, "n": 10},
+   "Nuggets": {"m": 17, "n": 8}
   },
   "games": [
-   {
-    "d": "2026-11-08",
-    "a": "76ers",
-    "h": "Bulls",
-    "when": "Sun 12:30 PM PT",
-    "adjH": -1.0,
-    "adjA": -1.5,
-    "b2bH": false,
-    "b2bA": false
-   },
-   {
-    "d": "2026-11-08",
-    "a": "Lakers",
-    "h": "Pistons",
-    "when": "Sun 3:00 PM PT",
-    "adjH": -2.5,
-    "adjA": -4.0,
-    "b2bH": false,
-    "b2bA": false
-   },
-   {
-    "d": "2026-11-08",
-    "a": "Jazz",
-    "h": "Timberwolves",
-    "when": "Sun 4:00 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": false,
-    "b2bA": false
-   },
-   {
-    "d": "2026-11-08",
-    "a": "Nets",
-    "h": "Mavericks",
-    "when": "Sun 4:30 PM PT",
-    "adjH": 0,
-    "adjA": -0.5,
-    "b2bH": false,
-    "b2bA": false
-   },
-   {
-    "d": "2026-11-08",
-    "a": "Celtics",
-    "h": "Bucks",
-    "when": "Sun 5:00 PM PT",
-    "adjH": 0,
-    "adjA": 0,
-    "b2bH": false,
-    "b2bA": false
-   },
-   {
-    "d": "2026-11-08",
-    "a": "Heat",
-    "h": "Kings",
-    "when": "Sun 6:00 PM PT",
-    "adjH": -1.5,
-    "adjA": 0,
-    "b2bH": false,
-    "b2bA": false
-   },
-   {
-    "d": "2026-11-08",
-    "a": "Pelicans",
-    "h": "Clippers",
-    "when": "Sun 6:00 PM PT",
-    "adjH": -0.5,
-    "adjA": -1.0,
-    "b2bH": false,
-    "b2bA": false
-   }
+   {"d": "2026-11-09", "a": "Lakers", "h": "Hawks", "when": "Mon 4:00 PM PT", "adjH": -0.5, "adjA": -2.0, "b2bH": false, "b2bA": true},
+   {"d": "2026-11-09", "a": "Wizards", "h": "Pistons", "when": "Mon 4:00 PM PT", "adjH": -2.5, "adjA": -1.5, "b2bH": true, "b2bA": false},
+   {"d": "2026-11-09", "a": "Cavaliers", "h": "Hornets", "when": "Mon 4:00 PM PT", "adjH": -4.0, "adjA": -1.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-09", "a": "Grizzlies", "h": "Raptors", "when": "Mon 4:30 PM PT", "adjH": -3.0, "adjA": -1.5, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-09", "a": "Pacers", "h": "Mavericks", "when": "Mon 5:00 PM PT", "adjH": -1.0, "adjA": -2.5, "b2bH": true, "b2bA": false},
+   {"d": "2026-11-09", "a": "Nuggets", "h": "Rockets", "when": "Mon 5:30 PM PT", "adjH": -1.0, "adjA": -2.0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-09", "a": "Spurs", "h": "Suns", "when": "Mon 6:00 PM PT", "adjH": -1.0, "adjA": -1.0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-09", "a": "Pelicans", "h": "Warriors", "when": "Mon 7:00 PM PT", "adjH": -4.0, "adjA": -1.0, "b2bH": false, "b2bA": true}
   ]
  },
  "news": [
-  "NFL: 13 games Sunday (Week 9). Spreads/totals are DraftKings via ESPN; moneylines are Covers opening-column prices with no book named, so all 12 NFL leans are market-only (p = no-vig market), no model edge claimed, price assumed. Bengals-Falcons (Madrid, 6:30 AM PT) skipped as already started. No injury report was retrievable.",
-  "NBA: 7 games Sunday, no back-to-backs. Saturday finals added to season margins (CBS; Nuggets-Pacers was played in Mexico City, listed order used). Injury adjustments are my estimates: Doncic questionable, Embiid questionable, Claxton questionable, Duren and Joe out for DET. Matchups/home-away from CBS summary, not verbatim.",
-  "NHL: 6 games Sunday (goalies unconfirmed). No picks: moneylines could not be verified from the pages read. Saturday NHL finals were only partly retrievable. College football: no Sunday games, and no CFB lines retrieved. MLB season is over."
+  "NFL: Sunday Week 9 finals recorded. Monday Night Football is Bills at Vikings (BUF -3 DK, total 43.5-44.5); moneyline not found, price assumed.",
+  "NBA: 8 games Monday (Lakers-Hawks, Wizards-Pistons, Cavaliers-Hornets, Grizzlies-Raptors, Pacers-Mavericks, Nuggets-Rockets, Spurs-Suns, Pelicans-Warriors). Sunday's 7 finals added to season margins (CBS, not cross-checked). Back-to-backs: Lakers, Pistons, Mavericks, Pelicans. Injury adjustments are my estimates from the CBS injury page (Doncic out until at least Nov 9, Jokic GTD, Haliburton out, Butler/Porzingis out for GSW).",
+  "NHL: 3 games Monday: Rangers at Oilers (Garand vs Levi), Flyers at Canucks (Vladar vs Lankinen), Islanders at Sharks (Sorokin vs Askarov); goalies unconfirmed. No picks: no moneylines could be retrieved. Sunday NHL finals: BOS 4 FLA 1, LV 4 BUF 1, WPG 4 TB 3, CGY 4 PHI 3 (OT), NJ 4 TOR 0, ANA 5 PIT 2.",
+  "College football: no games Nov 9-10 and no lines retrieved. MLB season is over. The sports data tool was unavailable this run; ESPN pages were blocked, so odds are missing across the board."
  ]
 }
