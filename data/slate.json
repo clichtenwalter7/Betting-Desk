@@ -1,70 +1,29 @@
 {
  "v": 1,
- "asof": "2026-11-09T07:51:57-08:00",
- "date": "2026-11-09",
+ "asof": "2026-11-10T07:52:47-08:00",
+ "date": "2026-11-10",
  "picks": [
-  {
-   "type": "ml",
-   "d": "2026-11-09",
-   "sp": "NFL",
-   "away": "Bills",
-   "home": "Vikings",
-   "pick": "Bills",
-   "p": 0.59,
-   "why": "Bills at Vikings (MNF, both 6-1): Bills favored by 3 per DraftKings via ESPN, total 43.5-44.5. Moneyline was not found, so the price is assumed (about Bills -155 / Vikings +135), not verified. Market-only lean: p is the no-vig market probability, no model edge claimed. No injury report retrieved; confirm QBs and the price before betting.",
-   "when": "Mon evening PT (kickoff time not retrieved)"
-  }
+  {"type":"ml","d":"2026-11-10","sp":"NHL","away":"Avalanche","home":"Maple Leafs","pick":"Avalanche","p":0.579,"why":"Avalanche at Maple Leafs: CBS odds page lists ML Avalanche -149 / Maple Leafs +130 (book unnamed, extracted from a summary, so unverified; no od set). Market-only lean: p is the no-vig market probability, no model edge claimed. Blackwood vs Bobrovsky (both projected). Confirm goalies and the price before betting.","when":"Tue 4:00 PM PT"},
+  {"type":"ml","d":"2026-11-10","sp":"NHL","away":"Devils","home":"Jets","pick":"Devils","p":0.574,"why":"Devils at Jets: CBS odds page lists ML Devils -148 / Jets +126 (book unnamed, extracted from a summary, so unverified; no od set). Market-only lean: p is the no-vig market probability, no model edge claimed. Jake Allen confirmed for NJ (Hellebuyck benched per team note) vs projected Skinner. Confirm goalies and the price before betting.","when":"Tue 4:00 PM PT"},
+  {"type":"ml","d":"2026-11-10","sp":"NHL","away":"Red Wings","home":"Blues","pick":"Blues","p":0.563,"why":"Red Wings at Blues: CBS odds page lists ML Red Wings +120 / Blues -142 (book unnamed, extracted from a summary, so unverified; no od set). Market-only lean: p is the no-vig market probability, no model edge claimed. Gibson vs Hofer (both projected). Confirm goalies and the price before betting.","when":"Tue 5:00 PM PT"}
  ],
  "totals": [],
  "props": [],
  "nba": {
-  "season": {
-   "Pistons": {"m": 70, "n": 9},
-   "Celtics": {"m": 107, "n": 10},
-   "76ers": {"m": 34, "n": 11},
-   "Knicks": {"m": 51, "n": 9},
-   "Thunder": {"m": 80, "n": 10},
-   "Spurs": {"m": 103, "n": 10},
-   "Hawks": {"m": 35, "n": 11},
-   "Magic": {"m": -70, "n": 8},
-   "Bucks": {"m": -132, "n": 10},
-   "Wizards": {"m": -47, "n": 10},
-   "Bulls": {"m": -150, "n": 9},
-   "Raptors": {"m": 42, "n": 8},
-   "Timberwolves": {"m": 122, "n": 11},
-   "Heat": {"m": -12, "n": 8},
-   "Hornets": {"m": -139, "n": 10},
-   "Nets": {"m": -90, "n": 10},
-   "Pacers": {"m": -39, "n": 10},
-   "Pelicans": {"m": -3, "n": 10},
-   "Jazz": {"m": -117, "n": 10},
-   "Grizzlies": {"m": 55, "n": 9},
-   "Mavericks": {"m": 48, "n": 10},
-   "Rockets": {"m": 90, "n": 10},
-   "Warriors": {"m": 30, "n": 9},
-   "Lakers": {"m": 61, "n": 10},
-   "Suns": {"m": -63, "n": 7},
-   "Trail Blazers": {"m": 50, "n": 9},
-   "Kings": {"m": -133, "n": 10},
-   "Clippers": {"m": -29, "n": 8},
-   "Cavaliers": {"m": 29, "n": 10},
-   "Nuggets": {"m": 17, "n": 8}
-  },
+  "season": {"Pistons":{"m":81,"n":10},"Celtics":{"m":107,"n":10},"76ers":{"m":34,"n":11},"Knicks":{"m":51,"n":9},"Thunder":{"m":80,"n":10},"Spurs":{"m":129,"n":11},"Hawks":{"m":25,"n":12},"Magic":{"m":-70,"n":8},"Bucks":{"m":-132,"n":10},"Wizards":{"m":-58,"n":11},"Bulls":{"m":-150,"n":9},"Raptors":{"m":26,"n":9},"Timberwolves":{"m":122,"n":11},"Heat":{"m":-12,"n":8},"Hornets":{"m":-127,"n":11},"Nets":{"m":-90,"n":10},"Pacers":{"m":-42,"n":11},"Pelicans":{"m":-54,"n":11},"Jazz":{"m":-117,"n":10},"Grizzlies":{"m":71,"n":10},"Mavericks":{"m":51,"n":11},"Rockets":{"m":100,"n":11},"Warriors":{"m":81,"n":10},"Lakers":{"m":71,"n":11},"Suns":{"m":-89,"n":8},"Trail Blazers":{"m":50,"n":9},"Kings":{"m":-133,"n":10},"Clippers":{"m":-29,"n":8},"Cavaliers":{"m":17,"n":11},"Nuggets":{"m":7,"n":9}},
   "games": [
-   {"d": "2026-11-09", "a": "Lakers", "h": "Hawks", "when": "Mon 4:00 PM PT", "adjH": -0.5, "adjA": -2.0, "b2bH": false, "b2bA": true},
-   {"d": "2026-11-09", "a": "Wizards", "h": "Pistons", "when": "Mon 4:00 PM PT", "adjH": -2.5, "adjA": -1.5, "b2bH": true, "b2bA": false},
-   {"d": "2026-11-09", "a": "Cavaliers", "h": "Hornets", "when": "Mon 4:00 PM PT", "adjH": -4.0, "adjA": -1.5, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-09", "a": "Grizzlies", "h": "Raptors", "when": "Mon 4:30 PM PT", "adjH": -3.0, "adjA": -1.5, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-09", "a": "Pacers", "h": "Mavericks", "when": "Mon 5:00 PM PT", "adjH": -1.0, "adjA": -2.5, "b2bH": true, "b2bA": false},
-   {"d": "2026-11-09", "a": "Nuggets", "h": "Rockets", "when": "Mon 5:30 PM PT", "adjH": -1.0, "adjA": -2.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-09", "a": "Spurs", "h": "Suns", "when": "Mon 6:00 PM PT", "adjH": -1.0, "adjA": -1.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-09", "a": "Pelicans", "h": "Warriors", "when": "Mon 7:00 PM PT", "adjH": -4.0, "adjA": -1.0, "b2bH": false, "b2bA": true}
+   {"d":"2026-11-10","a":"Bucks","h":"Knicks","when":"Tue (tip time not retrieved)","adjH":-0.3,"adjA":-0.8,"b2bH":false,"b2bA":false},
+   {"d":"2026-11-10","a":"Celtics","h":"76ers","when":"Tue (tip time not retrieved)","adjH":-0.3,"adjA":0,"b2bH":false,"b2bA":false},
+   {"d":"2026-11-10","a":"Heat","h":"Jazz","when":"Tue (tip time not retrieved)","adjH":-2.5,"adjA":-2.0,"b2bH":false,"b2bA":false},
+   {"d":"2026-11-10","a":"Clippers","h":"Suns","when":"Tue (tip time not retrieved)","adjH":-1.0,"adjA":-3.0,"b2bH":true,"b2bA":false},
+   {"d":"2026-11-10","a":"Magic","h":"Kings","when":"Tue (tip time not retrieved)","adjH":-2.0,"adjA":-5.0,"b2bH":false,"b2bA":false},
+   {"d":"2026-11-10","a":"Thunder","h":"Trail Blazers","when":"Tue (tip time not retrieved)","adjH":0,"adjA":-1.0,"b2bH":false,"b2bA":false}
   ]
  },
  "news": [
-  "NFL: Sunday Week 9 finals recorded. Monday Night Football is Bills at Vikings (BUF -3 DK, total 43.5-44.5); moneyline not found, price assumed.",
-  "NBA: 8 games Monday (Lakers-Hawks, Wizards-Pistons, Cavaliers-Hornets, Grizzlies-Raptors, Pacers-Mavericks, Nuggets-Rockets, Spurs-Suns, Pelicans-Warriors). Sunday's 7 finals added to season margins (CBS, not cross-checked). Back-to-backs: Lakers, Pistons, Mavericks, Pelicans. Injury adjustments are my estimates from the CBS injury page (Doncic out until at least Nov 9, Jokic GTD, Haliburton out, Butler/Porzingis out for GSW).",
-  "NHL: 3 games Monday: Rangers at Oilers (Garand vs Levi), Flyers at Canucks (Vladar vs Lankinen), Islanders at Sharks (Sorokin vs Askarov); goalies unconfirmed. No picks: no moneylines could be retrieved. Sunday NHL finals: BOS 4 FLA 1, LV 4 BUF 1, WPG 4 TB 3, CGY 4 PHI 3 (OT), NJ 4 TOR 0, ANA 5 PIT 2.",
-  "College football: no games Nov 9-10 and no lines retrieved. MLB season is over. The sports data tool was unavailable this run; ESPN pages were blocked, so odds are missing across the board."
+  "NFL: Monday Night Football final, Bills 23, Vikings 6 (theScore). No NFL games Tuesday. Bills pick (market-only, assumed price) won.",
+  "NBA: 6 games Tuesday: Bucks-Knicks (NYK -15.5, o219.5), Celtics-76ers (PHI +1.5, o217.5), Heat-Jazz (UTA +9.5, o228.5), Clippers-Suns (PHX -4.5, o226.5), Magic-Kings (SAC +5.5, o221.5), Thunder-Trail Blazers (POR +1.5, o226.5). Spreads from a CBS page summary, unverified; tip times and moneylines not retrieved. Suns on a back-to-back. Monday's 8 finals added to season margins (landofbasketball). Injury adjustments are my estimates from the CBS injury page (Giannis GTD for Miami, Banchero/Suggs out for Orlando, Ingram/Beal out for the Clippers, Markkanen GTD and several Jazz out).",
+  "NHL: 7 games Tuesday. Lines are from the CBS odds page (extracted summary, books unnamed): COL -149 at TOR, WAS +110 at OTT, MIN -125 at MTL, NJ -148 at WPG, FLA -115 at CBJ, DET +120 at STL, NSH +115 at LA. Only Jake Allen (NJ) is a confirmed goalie. Three market-only leans listed. Monday's NHL results were not retrievable.",
+  "College football: no lines retrieved for the Tuesday MACtion/small slate. MLB season is over. The sports data tool was unavailable again this run; ESPN pages are blocked."
  ]
 }
