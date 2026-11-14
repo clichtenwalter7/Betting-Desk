@@ -1,29 +1,18 @@
 {
  "v": 1,
- "asof": "2026-11-13T08:03:49-08:00",
- "date": "2026-11-13",
+ "asof": "2026-11-14T07:51:11-08:00",
+ "date": "2026-11-14",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-13",
+   "d": "2026-11-14",
    "sp": "NHL",
-   "away": "Rangers",
-   "home": "Canucks",
-   "pick": "Rangers",
-   "p": 0.67,
-   "why": "Covers (Neil Parker, Nov 13) shows Novig implied win probability of 67% for the Rangers at Vancouver (final leg of a four-game road trip). Market-only lean: p is Novig's implied probability (may include vig), no American odds, goalies or start time retrieved, no model edge claimed. Confirm goalies and price before betting.",
-   "when": "Fri PT (time not confirmed)"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-13",
-   "sp": "NHL",
-   "away": "Predators",
-   "home": "Golden Knights",
-   "pick": "Golden Knights",
-   "p": 0.63,
-   "why": "Covers (Nov 13) shows Novig implied win probability of 63% for Vegas at home (7-3 on home ice). Market-only lean: p is Novig's implied probability (may include vig), no American odds, goalies or start time retrieved, no model edge claimed. Confirm goalies and price before betting.",
-   "when": "Fri PT (time not confirmed)"
+   "away": "Avalanche",
+   "home": "Canadiens",
+   "pick": "Canadiens",
+   "p": 0.525,
+   "why": "Market-only lean, no model edge claimed. CBS Sports preview shows moneylines +102 and -121 (book not named, side assignment inferred as Avalanche +102 / Canadiens -121; no-vig about 52.5% Montreal), total 6.5. Montreal is 12-3-4 with rookie Jacob Fowler 9-1-2, .926 (Montembeault out); Colorado has MacKinnon and Makar day-to-day after a 4-3 OT loss Thursday. Goalies unconfirmed. Price not verified, so no odds stored. Confirm goalies and price before betting.",
+   "when": "Sat 4:00 PM PT"
   }
  ],
  "totals": [],
@@ -62,21 +51,17 @@
    "Nuggets": {"m": 12, "n": 10}
   },
   "games": [
-   {"d": "2026-11-13", "a": "Bucks", "h": "Magic", "when": "Fri 4:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Knicks", "h": "Pacers", "when": "Fri 4:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Hawks", "h": "Bulls", "when": "Fri 5:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Cavaliers", "h": "Heat", "when": "Fri 5:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Grizzlies", "h": "Pelicans", "when": "Fri 5:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Jazz", "h": "Rockets", "when": "Fri 5:30 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Warriors", "h": "Spurs", "when": "Fri 6:30 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Trail Blazers", "h": "Kings", "when": "Fri 7:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-13", "a": "Thunder", "h": "Clippers", "when": "Fri 7:30 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": false}
+   {"d": "2026-11-14", "a": "Nuggets", "h": "Pelicans", "when": "Sat 4:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": true, "b2bA": false},
+   {"d": "2026-11-14", "a": "Mavericks", "h": "Cavaliers", "when": "Sat 4:30 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": true, "b2bA": false},
+   {"d": "2026-11-14", "a": "Nets", "h": "Grizzlies", "when": "Sat 5:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": true, "b2bA": false},
+   {"d": "2026-11-14", "a": "Bulls", "h": "Timberwolves", "when": "Sat 5:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": false, "b2bA": true},
+   {"d": "2026-11-14", "a": "Pistons", "h": "Heat", "when": "Sat 5:00 PM PT", "adjH": 0.0, "adjA": 0.0, "b2bH": true, "b2bA": false}
   ]
  },
  "news": [
-  "NBA: 9 games Friday Nov 13 (several are NBA Cup group games). Schedule from landofbasketball (times were listed in ET, converted to PT here; first-listed team assumed to be the away team, unconfirmed). No lines or injury reports retrieved, so injury adjustments are 0 and no back-to-backs apply (none of these teams played Thursday). The app prices NBA games from the model ratings only.",
-  "NBA: Thursday Nov 12 finals added to season margins: Hornets 96 Suns 101, Mavericks 94 Timberwolves 133, Pistons 144 Wizards 140 (2OT), Raptors 112 76ers 123.",
-  "NHL: Covers lists only two Friday games, Rangers at Canucks and Predators at Golden Knights. Only Novig implied probabilities (67% Rangers, 63% Golden Knights) were retrievable, so these are market-only leans with no claimed edge. Thursday NHL and TNF final scores could not be retrieved (ESPN blocks automated fetching).",
-  "NFL: no Friday game and no lines retrieved. MLB season is over. No college football lines retrieved. The sports data tool was unavailable again (the run used web search only)."
+  "NBA: 5 games Saturday Nov 14 (landofbasketball, ET converted to PT; away/home confirmed for Nuggets at Pelicans and Nets at Grizzlies, others assumed first-listed = away). Back-to-backs inferred from Friday's schedule: Pelicans, Cavaliers, Grizzlies, Heat, and Bulls. Friday Nov 13 final scores could not be retrieved, so season margins are through Thursday Nov 12 only.",
+  "NBA lines (SportBusy cached snapshot, may be stale): Nuggets -12.5 / ML -515 at Pelicans (Pelicans out Murray, Missi, Murphy III, McGowens, Watford); Grizzlies -3.5 / ML -156 vs Nets (Grizzlies out Edey, Post, Pippen Jr., Saunders). Injury adjustments are left at 0 since the page scale is unknown; the app prices from ratings only.",
+  "NHL: 14 games Saturday (Daily Faceoff). Only Avalanche at Canadiens had odds (CBS: +102 / -121, unverified side order). Starting goalies are almost all unconfirmed (only Hellebuyck for NJ confirmed). No other lines found, so no other NHL picks.",
+  "NFL: no Saturday games. College football: 56-game Saturday slate (Miami, Ohio State, Georgia, Indiana, Alabama, Notre Dame, Oregon, Utah among them) but no spreads or kickoff times retrieved, so no CFB picks. No sports data tool was available; web search and page fetches only. MLB is over."
  ]
 }
