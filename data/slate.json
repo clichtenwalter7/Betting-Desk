@@ -1,91 +1,42 @@
 {
  "v": 1,
- "asof": "2026-11-16T07:51:44-08:00",
- "date": "2026-11-16",
+ "asof": "2026-11-17T07:51:01-08:00",
+ "date": "2026-11-17",
  "picks": [
-  {
-   "type": "ml",
-   "d": "2026-11-16",
-   "sp": "NFL",
-   "away": "Chargers",
-   "home": "Ravens",
-   "pick": "Ravens",
-   "p": 0.64,
-   "why": "Market-only lean, no model edge claimed. Covers shows Ravens -4.5, total 38.5, implied win probability Ravens 66% / Chargers 34% (taken slightly down for vig). No American odds retrieved, so none stored. Injury and weather not verified. Confirm price before betting.",
-   "when": "Mon 5:15 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-16",
-   "sp": "NHL",
-   "away": "Canadiens",
-   "home": "Rangers",
-   "pick": "Canadiens",
-   "p": 0.54,
-   "why": "Slight lean, no price retrieved (assumed near even). Projected goalies Fowler (8-0-2, .924) vs Korpisalo (2-0-0, .931 small sample), both unconfirmed. No odds found; confirm goalies and price.",
-   "when": "Mon 4:30 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-16",
-   "sp": "NHL",
-   "away": "Canucks",
-   "home": "Mammoth",
-   "pick": "Mammoth",
-   "p": 0.56,
-   "why": "Home lean, no price retrieved (assumed). Projected Cossa (.865 SV%, 3.65 GAA) vs rookie Tolopilo (no NHL stats), both unconfirmed. Weak edge; confirm goalies and price before betting.",
-   "when": "Mon 6:30 PM PT"
-  }
+  {"type": "ml","d": "2026-11-17","sp": "NHL","away": "Predators","home": "Wild","pick": "Wild","p": 0.62,
+   "why": "Home lean: Wallstedt (14-2-3, .926, 1.94 GAA) projected vs Saros (.918). No price retrieved (assumed near even); goalies unconfirmed. Confirm goalies and price before betting.",
+   "when": "Tue 5:00 PM PT"},
+  {"type": "ml","d": "2026-11-17","sp": "NHL","away": "Ducks","home": "Blues","pick": "Ducks","p": 0.56,
+   "why": "Fade Binnington (1-3-1, .851, 4.26 GAA) projected; Husso (.881) is no better but Blues' goalie is the weaker side. No price retrieved (assumed near even); goalies unconfirmed. Confirm goalies and price before betting.",
+   "when": "Tue 5:00 PM PT"},
+  {"type": "ml","d": "2026-11-17","sp": "NHL","away": "Senators","home": "Jets","pick": "Senators","p": 0.57,
+   "why": "Ullmark (9-1-0, .939, 1.47 GAA) projected vs Daws (.892); small-sample stats, road team. No price retrieved (assumed near even); goalies unconfirmed. Confirm goalies and price before betting.",
+   "when": "Tue 4:00 PM PT"}
  ],
  "totals": [],
  "props": [],
  "nba": {
   "season": {
-   "Pistons": {"m": 65, "n": 12},
-   "Celtics": {"m": 149, "n": 12},
-   "76ers": {"m": 52, "n": 13},
-   "Knicks": {"m": 45, "n": 12},
-   "Thunder": {"m": 69, "n": 12},
-   "Spurs": {"m": 180, "n": 14},
-   "Hawks": {"m": 24, "n": 14},
-   "Magic": {"m": -45, "n": 10},
-   "Bucks": {"m": -158, "n": 13},
-   "Wizards": {"m": -103, "n": 14},
-   "Bulls": {"m": -136, "n": 12},
-   "Raptors": {"m": 6, "n": 12},
-   "Timberwolves": {"m": 150, "n": 13},
-   "Heat": {"m": 20, "n": 10},
-   "Hornets": {"m": -140, "n": 13},
-   "Nets": {"m": -75, "n": 12},
-   "Pacers": {"m": -34, "n": 14},
-   "Pelicans": {"m": -127, "n": 14},
-   "Jazz": {"m": -149, "n": 13},
-   "Grizzlies": {"m": 116, "n": 13},
-   "Mavericks": {"m": -35, "n": 14},
-   "Rockets": {"m": 145, "n": 14},
-   "Warriors": {"m": 33, "n": 12},
-   "Lakers": {"m": 90, "n": 13},
-   "Suns": {"m": -92, "n": 10},
-   "Trail Blazers": {"m": 73, "n": 11},
-   "Kings": {"m": -146, "n": 11},
-   "Clippers": {"m": -20, "n": 10},
-   "Cavaliers": {"m": 23, "n": 14},
-   "Nuggets": {"m": 20, "n": 11}
+   "Pistons": {"m": 65, "n": 12}, "Celtics": {"m": 139, "n": 13}, "76ers": {"m": 64, "n": 14}, "Knicks": {"m": 45, "n": 12},
+   "Thunder": {"m": 69, "n": 12}, "Spurs": {"m": 180, "n": 14}, "Hawks": {"m": 24, "n": 14}, "Magic": {"m": -35, "n": 11},
+   "Bucks": {"m": -158, "n": 13}, "Wizards": {"m": -119, "n": 15}, "Bulls": {"m": -147, "n": 13}, "Raptors": {"m": 6, "n": 12},
+   "Timberwolves": {"m": 158, "n": 14}, "Heat": {"m": 38, "n": 11}, "Hornets": {"m": -140, "n": 13}, "Nets": {"m": -87, "n": 13},
+   "Pacers": {"m": -34, "n": 14}, "Pelicans": {"m": -106, "n": 15}, "Jazz": {"m": -149, "n": 13}, "Grizzlies": {"m": 132, "n": 14},
+   "Mavericks": {"m": -35, "n": 14}, "Rockets": {"m": 127, "n": 15}, "Warriors": {"m": 12, "n": 13}, "Lakers": {"m": 90, "n": 13},
+   "Suns": {"m": -80, "n": 11}, "Trail Blazers": {"m": 65, "n": 12}, "Kings": {"m": -146, "n": 11}, "Clippers": {"m": -20, "n": 10},
+   "Cavaliers": {"m": 34, "n": 15}, "Nuggets": {"m": 8, "n": 12}
   },
   "games": [
-   {"d": "2026-11-16", "a": "Bulls", "h": "Cavaliers", "when": "Mon 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-16", "a": "Grizzlies", "h": "Wizards", "when": "Mon 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
-   {"d": "2026-11-16", "a": "Magic", "h": "Celtics", "when": "Mon 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
-   {"d": "2026-11-16", "a": "Rockets", "h": "Heat", "when": "Mon 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true},
-   {"d": "2026-11-16", "a": "76ers", "h": "Nets", "when": "Mon 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true},
-   {"d": "2026-11-16", "a": "Warriors", "h": "Pelicans", "when": "Mon 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-16", "a": "Trail Blazers", "h": "Timberwolves", "when": "Mon 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-16", "a": "Suns", "h": "Nuggets", "when": "Mon 6:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true}
+   {"d": "2026-11-17","a": "Knicks","h": "Raptors","when": "Tue 4:30 PM PT","adjH": -2.5,"adjA": 0,"b2bH": false,"b2bA": false},
+   {"d": "2026-11-17","a": "Trail Blazers","h": "Timberwolves","when": "Tue 5:00 PM PT","adjH": -4,"adjA": -3,"b2bH": true,"b2bA": true},
+   {"d": "2026-11-17","a": "Pistons","h": "Spurs","when": "Tue 5:00 PM PT","adjH": -1,"adjA": -2,"b2bH": false,"b2bA": false},
+   {"d": "2026-11-17","a": "Jazz","h": "Clippers","when": "Tue 7:30 PM PT","adjH": -2.5,"adjA": -4,"b2bH": false,"b2bA": false},
+   {"d": "2026-11-17","a": "Hornets","h": "Lakers","when": "Tue 8:00 PM PT","adjH": 0,"adjA": -3,"b2bH": false,"b2bA": false}
   ]
  },
  "news": [
-  "NBA: 8 games Mon Nov 16. No lines or injury reports retrieved, so injury adjustments are 0. Back-to-backs inferred from Sunday results: Wizards, Celtics (home), Rockets, 76ers, Suns (away). Sunday Nov 15 finals (8 games) added to season margins; Thunder at Kings (Sun night) score not retrieved so not counted.",
-  "NFL: Monday Night Football Chargers at Ravens (Ravens -4.5, total 38.5, market 66%). Sunday NFL finals and other lines could not be retrieved.",
-  "NHL: only 2 of 4 Monday games found (Canadiens at Rangers, Canucks at Mammoth); goalies unconfirmed, no odds retrieved. MLB offseason, no CFB games found."
+  "NBA: 5 games Tue Nov 17 (DraftKings via ESPN: Knicks -148 at Raptors, Trail Blazers +110 at Timberwolves, Pistons +312 at Spurs, Jazz +197 at Clippers, Hornets +248 at Lakers). Injury adjustments are rough estimates from ESPN's partly truncated injury page; Trail Blazers and Timberwolves are both on back-to-backs.",
+  "NHL: 11 games Tue; all goalies unconfirmed and no odds retrieved. Three goalie-based leans listed, prices assumed.",
+  "NFL: no Tuesday games; Monday Night Football Chargers at Ravens result could not be retrieved. MLB offseason; no CFB lines found."
  ]
 }
