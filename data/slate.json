@@ -1,84 +1,228 @@
 {
  "v": 1,
- "asof": "2026-11-18T07:51:40-08:00",
- "date": "2026-11-18",
+ "asof": "2026-11-19T07:52:49-08:00",
+ "date": "2026-11-19",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-18",
+   "d": "2026-11-19",
    "sp": "NHL",
-   "away": "Bruins",
-   "home": "Red Wings",
-   "pick": "Red Wings",
-   "p": 0.56,
-   "od": -122,
-   "why": "Tarasov confirmed for Detroit (.937 SV%, 1.69 GAA, small sample) vs Swayman (.906, unconfirmed). DraftKings ML DET -122 / BOS +102 (via ESPN). Thin edge; confirm price and goalies.",
-   "when": "Wed 4:30 PM PT"
+   "away": "Wild",
+   "home": "Flames",
+   "pick": "Wild",
+   "p": 0.67,
+   "od": -205,
+   "why": "Wallstedt (1.99 GAA, .924) vs Wolf (3.45, .878) in goal; Minnesota is the better team. DraftKings MIN -205 / CGY +170 (via ESPN feed, unverified). Both goalies unconfirmed.",
+   "when": "Thu 5:00 PM PT"
   },
   {
    "type": "ml",
-   "d": "2026-11-18",
+   "d": "2026-11-19",
    "sp": "NHL",
-   "away": "Avalanche",
-   "home": "Mammoth",
-   "pick": "Avalanche",
-   "p": 0.57,
-   "od": -112,
-   "why": "Blackwood (11-3-1, .905) projected vs Vejmelka (6-7-2, .869) for Utah; Colorado is the stronger team and Utah is a near pick'em at home. DraftKings COL -112 / UTA -108 (via ESPN). Goalies unconfirmed.",
-   "when": "Wed 7:00 PM PT"
+   "away": "Flyers",
+   "home": "Senators",
+   "pick": "Senators",
+   "p": 0.64,
+   "od": -175,
+   "why": "Ullmark (1.42 GAA, .940) vs Vladar (.874) if both start; Ottawa at home. DraftKings OTT -175 (ESPN). Price is close to fair, so thin edge; goalies unconfirmed.",
+   "when": "Thu 4:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-19",
+   "sp": "NHL",
+   "away": "Canadiens",
+   "home": "Hurricanes",
+   "pick": "Hurricanes",
+   "p": 0.73,
+   "od": -265,
+   "why": "Dobes (.852) confirmed for Montreal on the second night of a back-to-back vs Kochetkov (.920). DraftKings CAR -265 (ESPN summary, unverified). Heavy price, small edge.",
+   "when": "Thu 4:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-19",
+   "sp": "NHL",
+   "away": "Oilers",
+   "home": "Lightning",
+   "pick": "Oilers",
+   "p": 0.46,
+   "od": 120,
+   "why": "Slight goalie edge Levi (.906) vs Vasilevskiy (.891) plus Edmonton team strength. DraftKings EDM +120 (ESPN). Thin lean; goalies unconfirmed.",
+   "when": "Thu 4:30 PM PT"
   }
  ],
  "totals": [],
  "props": [],
  "nba": {
   "season": {
-   "Pistons": {"m": 77, "n": 13},
-   "Celtics": {"m": 139, "n": 13},
-   "76ers": {"m": 64, "n": 14},
-   "Knicks": {"m": 54, "n": 13},
-   "Thunder": {"m": 69, "n": 12},
-   "Spurs": {"m": 168, "n": 15},
-   "Hawks": {"m": 24, "n": 14},
-   "Magic": {"m": -35, "n": 11},
-   "Bucks": {"m": -158, "n": 13},
-   "Wizards": {"m": -119, "n": 15},
-   "Bulls": {"m": -147, "n": 13},
-   "Raptors": {"m": -3, "n": 13},
-   "Timberwolves": {"m": 159, "n": 15},
-   "Heat": {"m": 38, "n": 11},
-   "Hornets": {"m": -140, "n": 13},
-   "Nets": {"m": -87, "n": 13},
-   "Pacers": {"m": -34, "n": 14},
-   "Pelicans": {"m": -106, "n": 15},
-   "Jazz": {"m": -149, "n": 13},
-   "Grizzlies": {"m": 132, "n": 14},
-   "Mavericks": {"m": -35, "n": 14},
-   "Rockets": {"m": 127, "n": 15},
-   "Warriors": {"m": 12, "n": 13},
-   "Lakers": {"m": 90, "n": 13},
-   "Suns": {"m": -80, "n": 11},
-   "Trail Blazers": {"m": 64, "n": 13},
-   "Kings": {"m": -146, "n": 11},
-   "Clippers": {"m": -20, "n": 10},
-   "Cavaliers": {"m": 34, "n": 15},
-   "Nuggets": {"m": 8, "n": 12}
+   "Pistons": {
+    "m": 90,
+    "n": 14
+   },
+   "Celtics": {
+    "m": 135,
+    "n": 14
+   },
+   "76ers": {
+    "m": 69,
+    "n": 15
+   },
+   "Knicks": {
+    "m": 54,
+    "n": 13
+   },
+   "Thunder": {
+    "m": 64,
+    "n": 13
+   },
+   "Spurs": {
+    "m": 168,
+    "n": 15
+   },
+   "Hawks": {
+    "m": 29,
+    "n": 15
+   },
+   "Magic": {
+    "m": -40,
+    "n": 12
+   },
+   "Bucks": {
+    "m": -165,
+    "n": 14
+   },
+   "Wizards": {
+    "m": -115,
+    "n": 16
+   },
+   "Bulls": {
+    "m": -117,
+    "n": 14
+   },
+   "Raptors": {
+    "m": -7,
+    "n": 14
+   },
+   "Timberwolves": {
+    "m": 159,
+    "n": 15
+   },
+   "Heat": {
+    "m": 45,
+    "n": 12
+   },
+   "Hornets": {
+    "m": -144,
+    "n": 14
+   },
+   "Nets": {
+    "m": -117,
+    "n": 14
+   },
+   "Pacers": {
+    "m": -49,
+    "n": 15
+   },
+   "Pelicans": {
+    "m": -119,
+    "n": 16
+   },
+   "Jazz": {
+    "m": -112,
+    "n": 15
+   },
+   "Grizzlies": {
+    "m": 135,
+    "n": 15
+   },
+   "Mavericks": {
+    "m": -13,
+    "n": 15
+   },
+   "Rockets": {
+    "m": 142,
+    "n": 16
+   },
+   "Warriors": {
+    "m": -10,
+    "n": 14
+   },
+   "Lakers": {
+    "m": 82,
+    "n": 15
+   },
+   "Suns": {
+    "m": -59,
+    "n": 12
+   },
+   "Trail Blazers": {
+    "m": 64,
+    "n": 13
+   },
+   "Kings": {
+    "m": -167,
+    "n": 12
+   },
+   "Clippers": {
+    "m": -45,
+    "n": 11
+   },
+   "Cavaliers": {
+    "m": 31,
+    "n": 16
+   },
+   "Nuggets": {
+    "m": 12,
+    "n": 13
+   }
   },
   "games": [
-   {"d": "2026-11-18", "a": "Grizzlies", "h": "Cavaliers", "when": "Wed 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "Rockets", "h": "Pacers", "when": "Wed 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "Bucks", "h": "Heat", "when": "Wed 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "76ers", "h": "Magic", "when": "Wed 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "Bulls", "h": "Nets", "when": "Wed 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "Wizards", "h": "Raptors", "when": "Wed 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
-   {"d": "2026-11-18", "a": "Pistons", "h": "Pelicans", "when": "Wed 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true},
-   {"d": "2026-11-18", "a": "Hawks", "h": "Thunder", "when": "Wed 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "Warriors", "h": "Mavericks", "when": "Wed 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-18", "a": "Celtics", "h": "Nuggets", "when": "Wed evening PT (time unconfirmed)", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
+   {
+    "d": "2026-11-19",
+    "a": "Warriors",
+    "h": "Grizzlies",
+    "when": "Thu 5:00 PM PT",
+    "adjH": 0,
+    "adjA": 0,
+    "b2bH": true,
+    "b2bA": true
+   },
+   {
+    "d": "2026-11-19",
+    "a": "Trail Blazers",
+    "h": "Bucks",
+    "when": "Thu 5:00 PM PT",
+    "adjH": 0,
+    "adjA": 0,
+    "b2bH": true,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-19",
+    "a": "Knicks",
+    "h": "Timberwolves",
+    "when": "Thu 5:00 PM PT",
+    "adjH": 0,
+    "adjA": 0,
+    "b2bH": false,
+    "b2bA": false
+   },
+   {
+    "d": "2026-11-19",
+    "a": "Clippers",
+    "h": "Spurs",
+    "when": "Thu 5:00 PM PT",
+    "adjH": 0,
+    "adjA": 0,
+    "b2bH": false,
+    "b2bA": false
+   }
   ]
  },
  "news": [
-  "NBA: 10 games Wed Nov 18 (DraftKings via ESPN: Grizzlies +171 at Cavaliers, Rockets -279 at Pacers, Bucks +558 at Heat, 76ers -135 at Magic, Bulls +128 at Nets, Wizards +205 at Raptors, Pistons -277 at Pelicans, Hawks +231 at Thunder, Warriors +184 at Mavericks). Injury adjustments not retrieved (set to 0); Pistons and Raptors on back-to-backs. Nov 17 finals added: Pistons 105 Spurs 93, Knicks 111 Raptors 102, Trail Blazers 105 Timberwolves 106; Hornets-Lakers and Jazz-Clippers finals not retrieved.",
-  "NHL: 3 games Wed (Bruins at Red Wings, Canadiens at Devils, Avalanche at Mammoth). Two goalie-based leans with DraftKings prices; Canadiens-Devils skipped (NJ -162 fairly priced). Only Tarasov confirmed.",
-  "NFL: no games Wed; MNF final Chargers 23 Ravens 20. MLB offseason. CFB MACtion Wed: Akron at UMass (MASS -3, ML -162) and Central Michigan at Buffalo (BUF -1.5); no model lean."
+  "NBA: 4 games Thu Nov 19 (Warriors at Grizzlies, Trail Blazers at Bucks, Knicks at Timberwolves, Clippers at Spurs), all 5:00 PM PT. No DraftKings prices in the feed; injury adjustments not retrieved (set to 0). Warriors and Grizzlies both on back-to-backs, Bucks too. Nov 18 finals added (Hawks 117 Thunder 112, Pistons 122 Pelicans 109, Grizzlies 124 Cavaliers 121, etc.); Warriors-Mavericks, Celtics-Nuggets, Jazz-Lakers and Suns-Kings scores came from a summary and are unverified. Nov 17 Hornets-Lakers (OT) and Jazz-Clippers finals added.",
+  "NHL: 12 games Thu, only Dobes (MTL) confirmed in goal. Four goalie/price leans listed with ESPN DraftKings moneylines; several prices came from a feed summary. Nov 18 NHL results could not be retrieved.",
+  "NFL: Colts at Texans TNF 5:15 PM PT, HOU -12.5, total 43.5, ML HOU -750 / IND +525 (DraftKings via ESPN). No model edge at that price. CFB: Rice at Temple 4:30 PM PT, TEM -3, total 51.5, no lean. Nov 18 CFB finals: Akron 34 UMass 33, Central Michigan 21 Buffalo 40. MLB offseason."
  ]
 }
