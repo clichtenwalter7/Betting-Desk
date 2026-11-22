@@ -18,7 +18,7 @@ function neededSports() {
   BETS.forEach(function (b) { if (b.r === "open") (b.lg || []).forEach(function (l) { add(l.sp || b.sp); }); });
   if (UI.tab === "scores") add(UI.sp);
   Object.keys(STAR).forEach(function (id) { if (X.index[id]) add(X.index[id].sp); });
-  if (UI.tab === "today" || UI.tab === "picks") SPORT_ORDER.forEach(function (k) { if (s[k]) return; });
+  add("NFL");
   return Object.keys(s);
 }
 function daysFor(sp) {

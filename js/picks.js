@@ -8,11 +8,28 @@ function gameForRow(row) {
 function nbaGamesPlayed(team) { var s = SLATE && SLATE.nba && SLATE.nba.season && SLATE.nba.season[team]; return s ? s.n : 0; }
 var pid = function (parts) { return "p-" + parts.join("").replace(/\W/g, ""); };
 
+/* NFL: like NBA, the app builds its own rows. Every NFL game with a live DraftKings moneyline gets a row for the market favorite
+   (no-vig chance), unless the daily slate already has a pick for that game. The NFL model weight is small, so these are market leans. */
+function nflRows(have) {
+  var out = [], t = today();
+  gamesList().forEach(function (g) {
+    if (g.sp !== "NFL" || g.state !== "pre" || !g.day || g.day < t || !g.odds || g.odds.mlA == null || g.odds.mlH == null) return;
+    if (!E.okOdds(g.odds.mlA) || !E.okOdds(g.odds.mlH)) return;
+    var dup = have.some(function (r) { return r.sp === "NFL" && r.d === g.day && E.sameTeam(r.away, g.a) && E.sameTeam(r.home, g.h); });
+    if (dup) return;
+    var nv = E.noVig(g.odds.mlA, g.odds.mlH), homeFav = nv.h >= nv.a, fav = homeFav ? g.h : g.a, pf = homeFav ? nv.h : nv.a;
+    out.push({ type: "ml", d: g.day, sp: "NFL", away: g.a.nick, home: g.h.nick, pick: fav.nick, p: pf, when: "",
+      why: "Market lean: the " + fav.nick + " are the DraftKings favorite (" + Math.round(pf * 100) + "% after removing the vig). The NFL model has almost no weight of its own, so this is the market price, not an edge. The vig usually makes it a slightly negative bet. Check injuries and quarterback news before betting." });
+  });
+  return out;
+}
+
 function slateRows() {
   var rows = [];
   if (!SLATE) return rows;
   (SLATE.picks || []).forEach(function (r) { rows.push(r); });
   if (SLATE.nba && SLATE.nba.games) E.nbaRows(SLATE.nba.games, NBAD, SLATE.nba.season).forEach(function (r) { rows.push(r); });
+  nflRows(rows).forEach(function (r) { rows.push(r); });
   (SLATE.totals || []).forEach(function (r) { rows.push(Object.assign({ type: "total" }, r)); });
   (SLATE.props || []).forEach(function (r) { rows.push(Object.assign({ type: "prop" }, r)); });
   return rows;
