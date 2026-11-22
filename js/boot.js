@@ -1,3 +1,4 @@
+var APPV = "bd-v6";
 /* Start-up, data refresh loop and service worker. */
 function loadSlate() {
   var get = function (u) { return fetch(u + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }); };
@@ -79,6 +80,13 @@ function init() {
   setInterval(tick, 30000);
   document.addEventListener("visibilitychange", function () { if (!document.hidden) { if (Date.now() - lastSlate > 300000) { lastSlate = Date.now(); loadSlate().then(function () { refreshLive(true); }); } else refreshLive(true); } });
   window.addEventListener("online", function () { refreshLive(true); });
-  if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) navigator.serviceWorker.register("sw.js").catch(function () { });
+  if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
+    var hadCtl = !!navigator.serviceWorker.controller, reloaded = false;
+    navigator.serviceWorker.addEventListener("controllerchange", function () { if (hadCtl && !reloaded) { reloaded = true; location.reload(); } });
+    navigator.serviceWorker.register("sw.js").then(function (reg) {
+      reg.update().catch(function () { });
+      document.addEventListener("visibilitychange", function () { if (!document.hidden) reg.update().catch(function () { }); });
+    }).catch(function () { });
+  }
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
