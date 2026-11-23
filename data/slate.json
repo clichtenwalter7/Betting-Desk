@@ -1,106 +1,29 @@
 {
  "v": 1,
- "asof": "2026-11-22T07:51:30-08:00",
- "date": "2026-11-22",
+ "asof": "2026-11-23T07:51:25-08:00",
+ "date": "2026-11-23",
  "picks": [
-  {
-   "type": "ml",
-   "d": "2026-11-22",
-   "sp": "NHL",
-   "away": "Sabres",
-   "home": "Lightning",
-   "pick": "Lightning",
-   "p": 0.655,
-   "od": -205,
-   "why": "Pickdawgz line Lightning -205 (book not named, unverified; no-vig about 64.5%). Buffalo travelling after a Saturday game in Florida, Tampa rested since Thursday, Hagel out for TB. Both goalies unconfirmed (Vasilevskiy likely). Roughly no price edge at -205: EV -2.5%. Confirm goalies and price.",
-   "when": "Sun 2:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-22",
-   "sp": "NHL",
-   "away": "Penguins",
-   "home": "Stars",
-   "pick": "Stars",
-   "p": 0.68,
-   "od": -225,
-   "why": "Pickdawgz line Stars -225 (book not named, unverified; no-vig about 66.4%). Oettinger (.901) vs Silovs (.873), Pittsburgh on the second leg of a road back-to-back. Price already covers it: EV -1.8%. Confirm goalies and price.",
-   "when": "Sun 4:00 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-22",
-   "sp": "NHL",
-   "away": "Hurricanes",
-   "home": "Rangers",
-   "pick": "Rangers",
-   "p": 0.46,
-   "od": 124,
-   "why": "Pickdawgz line Rangers +124 (book not named, unverified; no-vig about 42.8%). Carolina on the second night of a back-to-back (played Edmonton Saturday), Rangers rested; goalies unconfirmed (Bussi .872 or Kochetkov for CAR, Garand .910 or Korpisalo for NYR). EV +3% at that price. Confirm goalies and price.",
-   "when": "Sun 9:30 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-22",
-   "sp": "NHL",
-   "away": "Oilers",
-   "home": "Blues",
-   "pick": "Blues",
-   "p": 0.5,
-   "od": -102,
-   "why": "Lines conflict by source (Caesars Blues -104, Pickdawgz Blues -102). Edmonton on a back-to-back and sixth straight road game, Blues at home with Hofer (.923) likely; Edmonton goalie unconfirmed (Levi .893 / Jarry .909). Essentially a coin flip: EV about -1%. Confirm goalies and price.",
-   "when": "Sun 4:00 PM PT"
-  }
+  {"type":"ml","d":"2026-11-23","sp":"NFL","away":"Bengals","home":"Commanders","pick":"Bengals","p":0.72,"why":"Monday Night Football. Covers preview shows Bengals -6.5, total 52.5, Kalshi 72% Bengals (no American moneyline found, preview last updated Nov 18, may be stale). Washington missing RB Croskey-Merritt and other starters; no Bengals injuries reported. This is the market probability with no edge claimed. Confirm line, price and QB status.","when":"Mon 5:15 PM PT"},
+  {"type":"ml","d":"2026-11-23","sp":"NHL","away":"Flames","home":"Senators","pick":"Senators","p":0.68,"why":"Ullmark (11-1, .937, 1.47 GAA) vs Wolf (.877) is the biggest goalie gap on the slate, plus home ice. No sportsbook price found, so no od: model estimate only. Goalies unconfirmed (Daily Faceoff showed 0 of 14 confirmed). Confirm goalies and price before betting.","when":"Mon 4:30 PM PT"},
+  {"type":"ml","d":"2026-11-23","sp":"NHL","away":"Wild","home":"Sharks","pick":"Wild","p":0.64,"why":"Wallstedt (16-2-4, .923) vs Nedeljkovic (.902) and Minnesota's stronger record; San Jose has home ice. No sportsbook price found, so no od: model estimate only. Goalies unconfirmed (Daily Faceoff showed 0 of 14 confirmed). Confirm goalies and price before betting.","when":"Mon 7:00 PM PT"},
+  {"type":"ml","d":"2026-11-23","sp":"NHL","away":"Kings","home":"Canadiens","pick":"Canadiens","p":0.62,"why":"Fowler (10-3-2, .918) vs Forsberg (0-7-1 record, .901), Montreal at home. No sportsbook price found, so no od: model estimate only. Goalies unconfirmed (Daily Faceoff showed 0 of 14 confirmed). Confirm goalies and price before betting.","when":"Mon 4:30 PM PT"},
+  {"type":"ml","d":"2026-11-23","sp":"NHL","away":"Maple Leafs","home":"Islanders","pick":"Islanders","p":0.57,"why":"Sorokin (.918) vs Stolarz (.902) with home ice; thin edge. No sportsbook price found, so no od: model estimate only. Goalies unconfirmed (Daily Faceoff showed 0 of 14 confirmed). Confirm goalies and price before betting.","when":"Mon 4:30 PM PT"}
  ],
  "totals": [],
  "props": [],
  "nba": {
-  "season": {
-   "Pistons": {"m": 87, "n": 15},
-   "Celtics": {"m": 134, "n": 15},
-   "76ers": {"m": 72, "n": 16},
-   "Knicks": {"m": 58, "n": 15},
-   "Thunder": {"m": 70, "n": 14},
-   "Spurs": {"m": 203, "n": 17},
-   "Hawks": {"m": 43, "n": 16},
-   "Magic": {"m": -38, "n": 13},
-   "Bucks": {"m": -178, "n": 16},
-   "Wizards": {"m": -111, "n": 17},
-   "Bulls": {"m": -121, "n": 15},
-   "Raptors": {"m": -4, "n": 15},
-   "Timberwolves": {"m": 165, "n": 17},
-   "Heat": {"m": 45, "n": 12},
-   "Hornets": {"m": -158, "n": 15},
-   "Nets": {"m": -119, "n": 15},
-   "Pacers": {"m": -58, "n": 16},
-   "Pelicans": {"m": -148, "n": 18},
-   "Jazz": {"m": -122, "n": 16},
-   "Grizzlies": {"m": 154, "n": 17},
-   "Mavericks": {"m": -3, "n": 16},
-   "Rockets": {"m": 133, "n": 17},
-   "Warriors": {"m": -38, "n": 15},
-   "Lakers": {"m": 84, "n": 16},
-   "Suns": {"m": -49, "n": 13},
-   "Trail Blazers": {"m": 73, "n": 15},
-   "Kings": {"m": -168, "n": 14},
-   "Clippers": {"m": -67, "n": 13},
-   "Cavaliers": {"m": 40, "n": 17},
-   "Nuggets": {"m": 21, "n": 14}
-  },
+  "season": {"Pistons":{"m":87,"n":15},"Celtics":{"m":134,"n":15},"76ers":{"m":72,"n":16},"Knicks":{"m":58,"n":15},"Thunder":{"m":70,"n":14},"Spurs":{"m":203,"n":17},"Hawks":{"m":43,"n":16},"Magic":{"m":-38,"n":13},"Bucks":{"m":-178,"n":16},"Wizards":{"m":-111,"n":17},"Bulls":{"m":-121,"n":15},"Raptors":{"m":-4,"n":15},"Timberwolves":{"m":165,"n":17},"Heat":{"m":45,"n":12},"Hornets":{"m":-158,"n":15},"Nets":{"m":-119,"n":15},"Pacers":{"m":-58,"n":16},"Pelicans":{"m":-148,"n":18},"Jazz":{"m":-122,"n":16},"Grizzlies":{"m":154,"n":17},"Mavericks":{"m":-3,"n":16},"Rockets":{"m":133,"n":17},"Warriors":{"m":-38,"n":15},"Lakers":{"m":84,"n":16},"Suns":{"m":-49,"n":13},"Trail Blazers":{"m":73,"n":15},"Kings":{"m":-168,"n":14},"Clippers":{"m":-67,"n":13},"Cavaliers":{"m":40,"n":17},"Nuggets":{"m":21,"n":14}},
   "games": [
-   {"d": "2026-11-22", "a": "Pistons", "h": "Hawks", "when": "Sun 12:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-22", "a": "Thunder", "h": "Heat", "when": "Sun 3:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-22", "a": "Mavericks", "h": "Jazz", "when": "Sun 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true},
-   {"d": "2026-11-22", "a": "Nuggets", "h": "Bulls", "when": "Sun 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-22", "a": "Magic", "h": "Wizards", "when": "Sun 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-22", "a": "Pacers", "h": "Knicks", "when": "Sun 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": true, "b2bA": false},
-   {"d": "2026-11-22", "a": "Celtics", "h": "Warriors", "when": "Sun 5:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": true}
+   {"d":"2026-11-23","a":"Trail Blazers","h":"76ers","when":"Mon 4:00 PM PT","adjH":-1.5,"adjA":0,"b2bH":false,"b2bA":false},
+   {"d":"2026-11-23","a":"Jazz","h":"Lakers","when":"Mon 7:00 PM PT","adjH":0,"adjA":0,"b2bH":false,"b2bA":false},
+   {"d":"2026-11-23","a":"Spurs","h":"Kings","when":"Mon 7:00 PM PT","adjH":0,"adjA":-1.0,"b2bH":false,"b2bA":false}
   ]
  },
  "news": [
-  "NFL: no verified sportsbook lines found for today's games (sources only showed prediction-market percentages and conflicting slates), so no NFL picks. Check DraftKings directly.",
-  "NHL Blackhawks at Canucks passed: both on a back-to-back, Bedard out, Commesso expected first start, line is a coin flip.",
-  "NBA season ratings updated through the six games played Nov 21.",
-  "Prices come from third-party previews (book not named) and are unverified; picks are model output, not guarantees."
+  "NBA: only 3 Monday games have a verified home/away order (Trail Blazers at 76ers, Jazz at Lakers, Spurs at Kings); other Monday NBA games were skipped. No NBA odds retrieved. Injury adjustments estimated (76ers Brown out, Spurs Harper out).",
+  "NBA season ratings NOT updated: Sunday Nov 22 final scores could not be retrieved, so Sunday results are missing from the ratings.",
+  "NHL: 5 picks are model estimates from goalie stats, no sportsbook prices found; all starters unconfirmed. Blue Jackets at Devils, Ducks at Kraken and Mammoth at Jets passed (no edge).",
+  "NFL: Monday Night Football Bengals at Commanders only; MLB offseason; no college football found for today.",
+  "Picks are model output, not guarantees; prices are unverified."
  ]
 }
