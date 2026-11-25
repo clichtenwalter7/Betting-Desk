@@ -1,34 +1,71 @@
 {
  "v": 1,
- "asof": "2026-11-24T07:51:11-08:00",
- "date": "2026-11-24",
+ "asof": "2026-11-25T07:52:32-08:00",
+ "date": "2026-11-25",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-24",
+   "d": "2026-11-25",
    "sp": "NHL",
-   "away": "Golden Knights",
-   "home": "Oilers",
-   "pick": "Oilers",
-   "p": 0.55,
-   "why": "Only NHL game on the card. Near coin flip: Oilers have home ice, projected Devon Levi (.892) vs Carter Hart (.886) per Daily Faceoff, both unconfirmed. No sportsbook price found, so no od: model estimate only, small lean. Confirm goalies and price before betting.",
-   "when": "Tue 5:00 PM PT"
+   "away": "Rangers",
+   "home": "Sabres",
+   "pick": "Rangers",
+   "p": 0.5,
+   "od": 114,
+   "why": "Rangers +114 (DraftKings via ESPN). Model: Rangers GD/game stronger than Sabres (shrunk to season so far), Korpisalo .940 vs Luukkonen .878 projected, Buffalo home ice. Model 66%, blended with no-vig market 25/75 to 50.0%. Goalie save% are small samples and unconfirmed.",
+   "when": "Wed 4:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-25",
+   "sp": "NHL",
+   "away": "Mammoth",
+   "home": "Wild",
+   "pick": "Wild",
+   "p": 0.634,
+   "od": -155,
+   "why": "Wild -155 (DraftKings via ESPN). Wild +1.4 GD/game vs Mammoth -0.1, Wallstedt .924 vs Vejmelka .870 projected, home ice. Model 79%, blended with no-vig market 25/75 to 63%. Goalies unconfirmed.",
+   "when": "Wed 5:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-25",
+   "sp": "NHL",
+   "away": "Senators",
+   "home": "Panthers",
+   "pick": "Senators",
+   "p": 0.487,
+   "od": 110,
+   "why": "Senators +110 (DraftKings via ESPN). Ullmark .941 vs Markstrom .894 projected and Senators GD/game ahead of Panthers. Model 58%, blended with market 25/75 to 49%. Thin edge, unconfirmed goalies.",
+   "when": "Wed 4:00 PM PT"
+  },
+  {
+   "type": "ml",
+   "d": "2026-11-25",
+   "sp": "NHL",
+   "away": "Jets",
+   "home": "Bruins",
+   "pick": "Bruins",
+   "p": 0.619,
+   "od": -162,
+   "why": "Bruins -162 (DraftKings via ESPN). Bruins +1.0 GD/game vs Jets -0.2, Swayman .905 vs Skinner .887, home ice. Model 70%, blended with market 25/75 to 62%. Roughly fair price, tiny edge.",
+   "when": "Wed 4:00 PM PT"
   }
  ],
  "totals": [],
  "props": [],
  "nba": {
   "season": {
-   "Pistons": {"m": 77, "n": 16},
-   "Celtics": {"m": 133, "n": 16},
+   "Pistons": {"m": 95, "n": 17},
+   "Celtics": {"m": 148, "n": 17},
    "76ers": {"m": 55, "n": 17},
    "Knicks": {"m": 65, "n": 16},
    "Thunder": {"m": 55, "n": 16},
    "Spurs": {"m": 219, "n": 18},
    "Hawks": {"m": 53, "n": 17},
-   "Magic": {"m": -58, "n": 14},
+   "Magic": {"m": -76, "n": 15},
    "Bucks": {"m": -173, "n": 17},
-   "Wizards": {"m": -91, "n": 18},
+   "Wizards": {"m": -106, "n": 19},
    "Bulls": {"m": -113, "n": 17},
    "Raptors": {"m": -9, "n": 16},
    "Timberwolves": {"m": 191, "n": 18},
@@ -39,7 +76,7 @@
    "Pelicans": {"m": -152, "n": 19},
    "Jazz": {"m": -139, "n": 18},
    "Grizzlies": {"m": 160, "n": 18},
-   "Mavericks": {"m": -1, "n": 17},
+   "Mavericks": {"m": 18, "n": 18},
    "Rockets": {"m": 145, "n": 18},
    "Warriors": {"m": -37, "n": 16},
    "Lakers": {"m": 99, "n": 17},
@@ -48,19 +85,26 @@
    "Kings": {"m": -184, "n": 15},
    "Clippers": {"m": -79, "n": 14},
    "Cavaliers": {"m": 26, "n": 18},
-   "Nuggets": {"m": 27, "n": 15}
+   "Nuggets": {"m": 8, "n": 16}
   },
   "games": [
-   {"d": "2026-11-24", "a": "Pistons", "h": "Magic", "when": "Tue 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-24", "a": "Celtics", "h": "Wizards", "when": "Tue 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
-   {"d": "2026-11-24", "a": "Mavericks", "h": "Nuggets", "when": "Tue 7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
+   {"d": "2026-11-25", "a": "Heat", "h": "76ers", "when": "Wed 2:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Bulls", "h": "Hornets", "when": "Wed 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Cavaliers", "h": "Knicks", "when": "Wed 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Timberwolves", "h": "Thunder", "when": "Wed 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Nets", "h": "Bucks", "when": "Wed 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Clippers", "h": "Grizzlies", "when": "Wed 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Suns", "h": "Rockets", "when": "Wed 5:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Kings", "h": "Warriors", "when": "Wed 7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-25", "a": "Spurs", "h": "Trail Blazers", "when": "Wed 7:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
   ]
  },
  "news": [
-  "Data limits this run: no odds or injury reports were retrievable (ESPN, Action Network and NBA odds pages blocked). NBA injury adjustments are 0 (unknown), so treat NBA prices as unverified.",
-  "NBA season ratings updated with Sun Nov 22 (7 games) and Mon Nov 23 (10 games) finals, 17 games total.",
-  "NHL: only Golden Knights at Oilers is scheduled; goalies unconfirmed, no price. NFL and college football: no games today. MLB offseason.",
-  "Monday result: Commanders 22, Bengals 20 (Bengals ML pick lost).",
-  "Picks are model output, not guarantees; prices are unverified."
+  "Data limits this run: no NBA odds or injury reports were retrievable, so NBA injury adjustments are 0 (unknown) and NBA prices are unverified. Back-to-backs: none of today's teams played Tuesday.",
+  "NBA season ratings updated with Tue Nov 24 finals: Celtics 131-116 Wizards, Mavericks 120-101 Nuggets, Pistons 104-86 Magic.",
+  "NHL: 14 games tonight. Prices are DraftKings moneylines as listed on ESPN; goalies are projected (only Detroit's Tarasov confirmed). 4 leans with a small positive edge, the rest pass. Team ratings are goal difference per game shrunk toward zero, model blended 25% with the no-vig market.",
+  "Tuesday result: Golden Knights 5, Oilers 3 (Oilers pick lost; score from an ESPN headline).",
+  "NFL Thanksgiving games are tomorrow, no lines found yet. No college football or MLB today.",
+  "Picks are model output, not guarantees; confirm prices and goalies before betting."
  ]
 }
