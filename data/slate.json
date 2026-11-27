@@ -1,43 +1,19 @@
 {
  "v": 1,
- "asof": "2026-11-26T07:50:59-08:00",
- "date": "2026-11-26",
+ "asof": "2026-11-27T07:51:20-08:00",
+ "date": "2026-11-27",
  "picks": [
   {
    "type": "ml",
-   "d": "2026-11-26",
+   "d": "2026-11-27",
    "sp": "NFL",
-   "away": "Bears",
-   "home": "Lions",
-   "pick": "Bears",
-   "p": 0.527,
-   "od": -122,
-   "why": "Bears -122 (spread Bears -1.5, total 55.5). Line flipped from Lions -2.5 at open; Fox notes Detroit has major defensive injuries (no names). Price is FanDuel (Fox Sports, as of Nov 25), not DraftKings. Market-only: no model edge claimed (model weight is 5%), size by the app. Kickoff time from the preseason Covers table, unverified.",
-   "when": "Thu 10:00 AM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-26",
-   "sp": "NFL",
-   "away": "Eagles",
-   "home": "Cowboys",
-   "pick": "Cowboys",
-   "p": 0.785,
-   "od": -446,
-   "why": "Cowboys -446 (spread -8.5, total 47.5). Line moved about 7 points from Cowboys -1.5 at open; Fox says Eagles injuries have gutted the offense (no names). Heavy favorite price, so it is a small-edge play at best. Price is FanDuel (Fox Sports, as of Nov 25), not DraftKings. Market-only: no model edge claimed (model weight is 5%), size by the app. Kickoff time from the preseason Covers table, unverified.",
-   "when": "Thu 1:30 PM PT"
-  },
-  {
-   "type": "ml",
-   "d": "2026-11-26",
-   "sp": "NFL",
-   "away": "Chiefs",
-   "home": "Bills",
-   "pick": "Bills",
-   "p": 0.575,
-   "od": -149,
-   "why": "Bills -149 (spread -3, total 46.5, cut from 50.5 for expected heavy rain and wind). Mahomes is back from his ACL tear. Rain and wind favor the home team's rushing and defense; no QB injury designations found. Price is FanDuel (Fox Sports, as of Nov 25), not DraftKings. Market-only: no model edge claimed (model weight is 5%), size by the app. Kickoff time from the preseason Covers table, unverified.",
-   "when": "Thu 5:20 PM PT"
+   "away": "Broncos",
+   "home": "Steelers",
+   "pick": "Broncos",
+   "p": 0.674,
+   "od": -237,
+   "why": "Broncos -237 / Steelers +194, spread Broncos -4.5, total 37 (Fox Sports odds page, Nov 27; book not named, not verified as DraftKings). p is the no-vig market probability, so no model edge is claimed. Injuries: Steelers LB Highsmith, G Dunker, WR Skowronek out; Broncos DE Jones, TE Lohner, S Rapp out. Kickoff time conflicts across sources (12:00 PM PT per Covers, 8:00 PM per Fox), unverified.",
+   "when": "Fri Nov 27 (time unverified)"
   }
  ],
  "totals": [],
@@ -75,12 +51,24 @@
    "Cavaliers": {"m": 7, "n": 19},
    "Nuggets": {"m": 8, "n": 16}
   },
-  "games": []
+  "games": [
+   {"d": "2026-11-27", "a": "Heat", "h": "Knicks", "when": "Fri 4:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Nets", "h": "Raptors", "when": "Fri 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Bucks", "h": "Pistons", "when": "Fri 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "76ers", "h": "Pacers", "when": "Fri 4:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Hawks", "h": "Celtics", "when": "Fri 5:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Grizzlies", "h": "Timberwolves", "when": "Fri 5:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Mavericks", "h": "Suns", "when": "Fri 6:00 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Nuggets", "h": "Jazz", "when": "Fri 6:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Warriors", "h": "Trail Blazers", "when": "Fri 6:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Lakers", "h": "Spurs", "when": "Fri 6:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false},
+   {"d": "2026-11-27", "a": "Pelicans", "h": "Clippers", "when": "Fri 6:30 PM PT", "adjH": 0, "adjA": 0, "b2bH": false, "b2bA": false}
+  ]
  },
  "news": [
-  "Thanksgiving: no NBA or NHL games today (NHL returns Fri Nov 27 with 15 games, NBA Black Friday). NFL: Bears-Lions, Eagles-Cowboys, Chiefs-Bills.",
-  "Data limits this run: sports data tool unavailable, so NFL lines are FanDuel via Fox Sports (Nov 25), no goalie or player-prop data, and Nov 25 NHL finals were not retrievable. NFL picks are market-based with no claimed edge.",
-  "NBA season ratings updated with Wed Nov 25 finals (9 games): Knicks 121-102 Cavaliers, Warriors 129-110 Kings, Grizzlies 115-97 Clippers, Rockets 116-104 Suns, Nets 104-97 Bucks, 76ers 111-104 Heat, Timberwolves 113-106 Thunder, Trail Blazers 116-111 Spurs, Bulls 107-105 Hornets.",
-  "Wednesday's Packers at Rams game (FanDuel Rams -2.5) is not covered here; Rams reportedly without Puka Nacua for the season."
+  "Black Friday: 11 NBA games (NBA Cup), 15 NHL games, one NFL game (Broncos at Steelers) and no college football found. NBA and NHL games are listed with no prices.",
+  "Data limits this run: sports data tool unavailable. No NHL or NBA odds, NHL standings, or NBA injury reports were retrievable, so no NHL picks and NBA games carry zero injury adjustments (no back-to-backs, since neither league played Thu Nov 26). Home/away for NBA is inferred from listing order.",
+  "Thanksgiving: Bears 39, Lions 35 (final). Eagles-Cowboys (Dallas led 28-10 at half) and Chiefs-Bills finals were not confirmed.",
+  "NHL starters (unconfirmed except Stolarz TOR and Brossoit ANA): BOS Swayman, NSH Saros, NJD Hellebuyck, DAL Oettinger, TBL Vasilevskiy, WSH Thompson, MIN Wallstedt, SJS Askarov, EDM Levi."
  ]
 }
